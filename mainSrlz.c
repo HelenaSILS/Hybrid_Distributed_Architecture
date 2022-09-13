@@ -10,6 +10,7 @@
 #include <sys/types.h>
 #include "mpi.h"
 #define MSG_FROM_GLOBAL_MASTER 999
+#define NTHREADS 8
 
 int main(int argc, char *argv[]) {
     int numprocs, rank, namelen;
@@ -32,15 +33,44 @@ int main(int argc, char *argv[]) {
     //     return 0;
     // }
 
-    #pragma omp parallel default(shared) private(iam, np) firstprivate(rank, numprocs) num_threads(8)
+    //criar vetores de exemplo
+    int shared_array[NTHREADS] = {2,4,6,8,10,12,14,16};
+    int *shared_pointer = (int*)malloc(sizeof(int)*NTHREADS);
+    char shared_char[NTHREADS] = {'q','w','e','r','t','y','u','i'};
+    
+    //exemplos
+    for(int i=0; i<NTHREADS; i++){
+        shared_pointer[i]=shared_array[i]+1;
+    }
+
+    #pragma omp parallel default(shared) shared(shared_array, shared_pointer, shared_char) private(iam, np) firstprivate(rank, numprocs) num_threads(NTHREADS)
     {
         np = omp_get_num_threads();
         iam = omp_get_thread_num();
         char recebendo[50];
         char devolta[] = "voltei\n";
         //printf("Hello from thread %d out of %d from process %d out of %d on %s\n", iam, np, rank, numprocs, processor_name);
+        int i;
+        char id[40];
+        int length = snprintf( NULL, 0, "%d", iam );
+        char* iam_to_str = malloc( length + 1 );
 
-        int i = 2 + 2;
+        if(!(iam<=1 && rank==0) && !(iam==0 && rank!=0)){ 
+            snprintf( iam_to_str, length + 1, "%d", iam );
+            strcpy(id, "echo \"meu id eh: ");
+            strcat(id, iam_to_str);
+            strcat(id, "\" >> out.txt");
+            //printf("antes: %s\n",id);
+            #pragma omp critical (workers_report)
+            {
+                shared_array[iam]=shared_array[iam]*10;
+                printf("shared_array[%d] = %d\n", iam, shared_array[iam]);
+                shared_pointer[iam]=shared_pointer[iam]*10;
+                printf("shared_pointer[%d] = %d\n", iam, shared_pointer[iam]);
+            }
+            
+            //system(id);
+        }
 
         //master global
         if(iam==0 && rank==0){ 
@@ -70,10 +100,16 @@ int main(int argc, char *argv[]) {
             //master local do no 0
             if(iam==1 && rank==0){
             //#pragma omp single nowait
-            #pragma omp critical
+            #pragma omp critical (local_master_0)
             {
                 char enviando[50] = "serah que chega? 0";
                 MPI_Request *requestS;
+                #pragma omp critical (workers_report)
+                {
+                    for(int j=0; j<NTHREADS; j++){
+                        printf("master local: array[%d]=%d\n", j, shared_pointer[j]);
+                    }
+                }
                 printf("single, rank: %d, thread: %d\n", rank, iam);
                 MPI_Send(enviando, 50, MPI_CHAR, 0, 0, MPI_COMM_WORLD);
                 printf("enviando 0\n");
@@ -85,7 +121,7 @@ int main(int argc, char *argv[]) {
                 //master local do no 1
                 if(iam==0 && rank==1){
                 //#pragma omp single nowait
-                #pragma omp critical
+                #pragma omp critical (local_master_1)
                 {
                     char enviando[50] = "serah que chega? 1";
                     MPI_Request *requestS;
@@ -100,26 +136,17 @@ int main(int argc, char *argv[]) {
         }
 
         /*
-        * Workers ficam abaixo do masters global e local para que não haja efeito da barreira
+        * Workers ficam abaixo do masters global e local para que não haja efeito da barreira?
         */
-        char id[40];
-        int length = snprintf( NULL, 0, "%d", iam );
-        char* iam_to_str = malloc( length + 1 );
 
-        if(!(iam<=1 && rank==0) && !(iam==0 && rank!=0)){ 
-            snprintf( iam_to_str, length + 1, "%d", iam );
-            strcpy(id, "echo \"meu id eh: ");
-            strcat(id, iam_to_str);
-            strcat(id, "\" >> out.txt");
-            printf("antes: %s\n",id);
-            system(id);
-        }
         
-        if(!(iam==0 && rank==1) && !(iam==1 && rank==0)){
-            printf("depois %s\n",id);
+        if(!(iam==0 && rank==1) && !(iam<=1 && rank==0)){
+            //printf("depois rank: %d, thread: %d %s\n",rank, iam, id);
             //printf("Hello from thread %d out of %d from process %d out of %d on %s\n", iam, np, rank, numprocs, processor_name);
-            system(id);
+            //system(id);
         
+        }else{
+            i = 0+0;
         }
     }
 
