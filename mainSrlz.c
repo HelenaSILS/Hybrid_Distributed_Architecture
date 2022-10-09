@@ -10,23 +10,49 @@
 #include <sys/types.h>
 #include "mpi.h"
 #include <time.h>
+#include "file_manager.h"
 #define MSG_FROM_GLOBAL_MASTER 999
 #define NTHREADS 8
 
 int main(int argc, char *argv[]) {
+    /*
+    * Input files
+    */
+    FILE *conf;
+    FILE *comandos;
+    FILE *samples;
+
+    if ((conf = fopen(argv[1], "r"))==NULL){
+        printf("erro ao abrir arquivo conf\n");
+        exit(1);
+    }
+    
+    char *buffer;
+	buffer = (char*)malloc(sizeof(char)*(MAX_BUFFER_CHAR));
+
+	struct queueSamples *queue = NULL;
+
+	queue=trataSamples(conf, queue);
+	printQueue(queue);
+
+
     int numprocs, rank, namelen;
     char processor_name[MPI_MAX_PROCESSOR_NAME];
-    int iam = 0, np = 1;
+    int iam = 0, np = 1, init;
     int provided, required=MPI_THREAD_SERIALIZED;
     // First call MPI_Init
     /// MPI_Init(&argc, &argv);
-    MPI_Init_thread(&argc, &argv, required, &provided);
-    //MPI_Init(&argc, &argv);
+    init=MPI_Init_thread(&argc, &argv, required, &provided);
+    if(init!=MPI_SUCCESS){
+        printf("Erro ao inicializar o MPI_Init_thread\n");
+        exit(1);
+    }
     MPI_Comm_size(MPI_COMM_WORLD, &numprocs);
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
     MPI_Get_processor_name(processor_name, &namelen);
     printf("no MPI, rank: %d, MPI_COMM_WORLD: %d\n, processors name: %s", rank, MPI_COMM_WORLD, processor_name);
-    
+
+
     // /* Check that the MPI implementation supports MPI_THREAD_MULTIPLE */
     // if (provided < MPI_THREAD_MULTIPLE) {
     //     printf("MPI does not support MPI_THREAD_MULTIPLE\n");
@@ -73,7 +99,7 @@ int main(int argc, char *argv[]) {
             strcat(id, iam_to_str);
             //printf("para o system: %s\n",id);
             //envia o processo
-            system(id);
+            //system(id);
             //atualiza um vetor
             shared_pointer[iam]=shared_pointer[iam]*10;
             //printf("shared_pointer[%d] = %d\n", iam, shared_pointer[iam]);
@@ -96,10 +122,10 @@ int main(int argc, char *argv[]) {
             while(probe!=MPI_SUCCESS && nlocal_master>0){ 
                 probe = MPI_Probe(MPI_ANY_SOURCE, MPI_ANY_TAG, MPI_COMM_WORLD, &status);
                 if(status.MPI_TAG!=MSG_FROM_GLOBAL_MASTER){ 
-                    erro1=MPI_Recv(recebendo, 50, MPI_CHAR, MPI_ANY_SOURCE, MPI_ANY_TAG, MPI_COMM_WORLD, &status);
-                    printf("message recb.: %s\n", recebendo);
+                    erro1=MPI_Recv(recebendo, 50, MPI_CHAR, status.MPI_SOURCE, MPI_ANY_TAG, MPI_COMM_WORLD, &status);
+                    printf("status Recv Master Global: %d, message recb.: %s\n", erro1, recebendo);
                     erro2=MPI_Send(devolta, 50, MPI_CHAR, status.MPI_SOURCE, MSG_FROM_GLOBAL_MASTER, MPI_COMM_WORLD);
-                    printf("erro2 Send do Master Global = %d\n", erro2);
+                    printf("status do Send do Master Global = %d\n", erro2);
                     nlocal_master--;
                     probe = -1;
                 }
@@ -143,10 +169,11 @@ int main(int argc, char *argv[]) {
                 printf("duration em %d: %.7f\n",iam, duration);
                 snprintf(enviando, 50, "%lf", duration);
                 //printf("single, rank: %d, thread: %d\n", rank, iam);
-                MPI_Send(enviando, 50, MPI_CHAR, 0, (rank*100+iam), MPI_COMM_WORLD);
+                erro1=MPI_Send(enviando, 50, MPI_CHAR, 0, (rank*100+iam), MPI_COMM_WORLD);
+                printf("status do Send Master local %d = %d\n", iam, erro1);
                 //printf("enviando 0\n");
                 erro2=MPI_Recv(enviando, 50, MPI_CHAR, 0, MSG_FROM_GLOBAL_MASTER, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
-                printf("erro2 Recv Master local %d = %d\n", iam, erro2);
+                printf("status do Recv Master local %d = %d\n", iam, erro2);
                 printf("de volta %d: %s\n", iam, enviando);
             }
             } //else{ 
@@ -180,4 +207,5 @@ int main(int argc, char *argv[]) {
     }
 
   MPI_Finalize();
+  return 0;
 }

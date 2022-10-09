@@ -1,3 +1,4 @@
+# include "file_manager.h"
 //definicoes das funcoes
 
 char* readlinefile (FILE *f, int length, char *c){
@@ -50,7 +51,6 @@ struct queueSamples * trataSamples (FILE *f, struct queueSamples *queue){
 
 	while(c!=EOF){ 
 		buffer=readlinefile(f, MAX_BUFFER_CHAR, &c);
-		printf("%s\n", buffer);
 		queue = insertElem (queue,buffer);
 	}
 	return queue;
@@ -59,9 +59,47 @@ struct queueSamples * trataSamples (FILE *f, struct queueSamples *queue){
 void printQueue(struct queueSamples *queue){
 	struct queueSamples *aux;
 	aux=queue;
-	printf("q: %s?\n", queue->nome);
 	while(aux!=NULL){
 		printf("%s\n", aux->nome);
 		aux=aux->next;
 	}
+}
+
+struct queueSamples* retornaElemN(struct queueSamples *queue, int n){
+	int i=0;
+	struct queueSamples *aux = queue;
+	while(i<n && aux!=NULL){
+		aux=aux->next;
+		i++;
+	}
+	return aux;
+ }
+
+//insere a string value onde encontrar o simbolo $ na string sentence
+char * insertVariableValue(char *sentence, char *value){
+	int sentenceSize = strlen(sentence);
+	int valueSize = strlen(value);
+	int i = 0;
+	char j = 0;
+	char c='-';
+	char *buffer = (char*) malloc (sizeof(char)*MAX_BUFFER_CHAR);
+	while(c!='\0'){
+		c=sentence[i];
+		if (c=='$'){
+			strcat(buffer, value);
+			printf("achou\n");
+			j=j+valueSize;
+			printf("buffer de dentro: -%s-\n", buffer);
+			i++;
+		}else{
+			buffer[j]=c;
+			i++;
+			j++;
+		}
+		if (i>=MAX_BUFFER_CHAR){
+			printf("extrapolou\n");
+			return NULL;
+		}		
+	}
+	return buffer;
 }
