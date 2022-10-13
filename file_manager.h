@@ -4,14 +4,16 @@
 # define MAX_BUFFER_CHAR 200
 
 //Estruturas de dados
-struct queueSamples{
+struct queueNode{
 	char nome[50];
-	struct queueSamples *next;
-} queueSamples;
+	struct queueNode *next;
+} queueNode;
 
 
 //declaracoes de funcoes
 char* readlinefile (FILE *, int, char *);
-struct queueSamples* insertElem (struct queueSamples *, char *);
-struct queueSamples* trataSamples (FILE *, struct queueSamples *);
-void printQueue(struct queueSamples *queue);
+struct queueNode* insertElem (struct queueNode *, char *);
+struct queueNode* trataSamples (FILE *, struct queueNode *);
+void printQueue(struct queueNode *queue);
+struct queueNode* retornaElemN(struct queueNode *, int );
+char * insertVariableValue(char *, char *);
