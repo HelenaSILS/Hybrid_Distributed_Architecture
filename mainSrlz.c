@@ -21,7 +21,7 @@ int main(int argc, char *argv[]) {
     int numprocs, rank, namelen;
     char processor_name[MPI_MAX_PROCESSOR_NAME];
     int iam = 0, np = 1, init;
-    int provided, required=MPI_THREAD_SERIALIZED;
+    int provided, required=MPI_THREAD_MULTIPLE;
     init=MPI_Init_thread(&argc, &argv, required, &provided);
     if(init!=MPI_SUCCESS){
         printf("Erro ao inicializar o MPI_Init_thread\n");
@@ -114,7 +114,7 @@ int main(int argc, char *argv[]) {
             shared_pointer[iam]=shared_pointer[iam]*10;
 
             while(workers_status_array[iam]==0){ 
-                if(rank==0)
+                if(rank==1)
                     sleep(5);
                 statusRun = runCommandOnSample(iteration, iam, rank, numprocs, samplesQueue, commandsQueue);
                 printf("status run de thread %d, rank %d: %d\n", iam, rank, statusRun);
@@ -146,9 +146,9 @@ int main(int argc, char *argv[]) {
                 nanosleep(100);
                 if(flags[i] && status[i].MPI_TAG!=MSG_FROM_GLOBAL_MASTER){ 
                     erro1=MPI_Recv(recebendo, 50, MPI_CHAR, status[i].MPI_SOURCE, MPI_ANY_TAG, MPI_COMM_WORLD, &status[i]);
-                    printf("status Recv Master Global: %d, message recb.: %s\n", erro1, recebendo);
+                    printf("status Recv Master Global: %d, message de %d recb.: %s\n", erro1, status[i].MPI_SOURCE, recebendo);
                     erro2=MPI_Send(devolta, 50, MPI_CHAR, status[i].MPI_SOURCE, MSG_FROM_GLOBAL_MASTER, MPI_COMM_WORLD);
-                    printf("status do Send do Master Global = %d\n", erro2);
+                    printf("status do Send do Master Global = %d, enviando para %d \n", erro2, status[i].MPI_SOURCE);
                     nlocal_master--;
                     probe = -1;
                 }
