@@ -4,19 +4,20 @@
 # define MAX_BUFFER_CHAR 500
 
 //Estruturas de dados
-struct queueSamples{
+struct queueNode{
 	char nome[MAX_BUFFER_CHAR];
-	struct queueSamples *next;
-} queueSamples;
+	struct queueNode *next;
+} queueNode;
 
 
 //declaracoes de funcoes
 char* readlinefile (FILE *, int, char *);
-struct queueSamples* insertElem (struct queueSamples *, char *);
-struct queueSamples* trataSamples (FILE *, struct queueSamples *);
-void printQueue(struct queueSamples *queue);
-struct queueSamples* retornaElemN(struct queueSamples *, int );
+struct queueNode* insertElem (struct queueNode *, char *);
+struct queueNode* trataSamples (FILE *, struct queueNode *);
+void printQueue(struct queueNode *queue);
+struct queueNode* retornaElemN(struct queueNode *, int );
 char * insertVariableValue(char *, char *);
+struct queueNode * makeQueueOutOfCommandsAndSample (struct queueNode *, struct queueNode *);
 
 int main(int argc, char *argv[]){
 FILE *conf;
@@ -41,16 +42,47 @@ FILE *samples;
 	char *buffer;
 	buffer = (char*)malloc(sizeof(char)*(MAX_BUFFER_CHAR));
 
-	struct queueSamples *queue = NULL;
+	struct queueNode *queue = NULL;
 
 	queue=trataSamples(conf, queue);
-	printQueue(queue);
-	struct queueSamples *aux1, *aux2;
-	aux1=retornaElemN(queue, 12);
-	aux2=retornaElemN(queue, 11);
-	printf("aux: %s\n", aux1->nome);
-	buffer=insertVariableValue(aux1->nome, aux2->nome);
-	printf("buffer:-%s-\n", buffer);
+	struct queueNode *outro = queue;
+	//printQueue(outro);
+	// struct queueNode *aux1, *aux2;
+	// aux1=retornaElemN(queue, 9);
+	// aux2=retornaElemN(queue, 11);
+	// printf("aux: %s\n", aux1->nome);
+	// buffer=insertVariableValue(aux1->nome, aux2->nome);
+	// printf("buffer:-%s-\n", buffer);
+
+	// struct queueNode *aux3;
+	// aux3=makeQueueOutOfCommandsAndSample(aux1, aux2);
+	// printf("=====================\n");
+	// printQueue(aux3);
+
+	// struct queueNode *aux4;
+	// aux4=retornaElemN(queue, 110);
+	// if(aux4==NULL)
+	// 	printf("nulo\n");
+
+
+	int countCommands=0;
+    while(outro!=NULL){
+        countCommands++;
+		outro=outro->next;
+    }
+
+    char *commandsMatrix[countCommands];
+	printf("antes, count: %d\n", countCommands);
+
+	for(int j=0; j<countCommands; j++){
+		printf("dentro do for j:%d\n", j);
+		commandsMatrix[j] = (char*) malloc (MAX_BUFFER_CHAR*sizeof(char));
+		printf("malocou, countCommands= %d \n", countCommands);
+		printf("queue-nome: %s\n", queue->nome);
+		strcpy(commandsMatrix[j], queue->nome);
+		queue=queue->next;
+	}
+
 
 
 	// fclose(conf);
@@ -80,13 +112,13 @@ char* readlinefile (FILE *f, int length, char *c){
 	return aux;
 }
 
-//void insertElem (struct queueSamples *, char *);
-struct queueSamples * insertElem (struct queueSamples * queue, char * buffer){
+//void insertElem (struct queueNode *, char *);
+struct queueNode * insertElem (struct queueNode * queue, char * buffer){
 
-	struct queueSamples *aux, *new;
+	struct queueNode *aux, *new;
 
 	//create the new Element
-	new = (struct queueSamples*) malloc (sizeof(struct queueSamples));
+	new = (struct queueNode*) malloc (sizeof(struct queueNode));
 	strcpy(new->nome, buffer);
 	new->next=NULL;
 
@@ -107,7 +139,7 @@ struct queueSamples * insertElem (struct queueSamples * queue, char * buffer){
 	}
 }
 
-struct queueSamples * trataSamples (FILE *f, struct queueSamples *queue){
+struct queueNode * trataSamples (FILE *f, struct queueNode *queue){
 
 	char c;
 	char *buffer;
@@ -122,8 +154,8 @@ struct queueSamples * trataSamples (FILE *f, struct queueSamples *queue){
 	return queue;
 }
 
-void printQueue(struct queueSamples *queue){
-	struct queueSamples *aux;
+void printQueue(struct queueNode *queue){
+	struct queueNode *aux;
 	aux=queue;
 	while(aux!=NULL){
 		printf("%s\n", aux->nome);
@@ -131,9 +163,9 @@ void printQueue(struct queueSamples *queue){
 	}
 }
 
-struct queueSamples* retornaElemN(struct queueSamples *queue, int n){
+struct queueNode* retornaElemN(struct queueNode *queue, int n){
 	int i=0;
-	struct queueSamples *aux = queue;
+	struct queueNode *aux = queue;
 	while(i<n && aux!=NULL){
 		aux=aux->next;
 		i++;
@@ -153,9 +185,7 @@ char * insertVariableValue(char *sentence, char *value){
 		c=sentence[i];
 		if (c=='$'){
 			strcat(buffer, value);
-			printf("achou\n");
 			j=j+valueSize;
-			printf("buffer de dentro: -%s-\n", buffer);
 			i++;
 		}else{
 			buffer[j]=c;
@@ -165,9 +195,21 @@ char * insertVariableValue(char *sentence, char *value){
 		if (i>=MAX_BUFFER_CHAR){
 			printf("extrapolou\n");
 			return NULL;
-		}
-			
+		}		
 	}
-
 	return buffer;
+}
+
+struct queueNode * makeQueueOutOfCommandsAndSample(struct queueNode *commandsQueue , struct queueNode * samplesQueue){
+    struct queueNode *commands = commandsQueue;
+	struct queueNode *sample = samplesQueue;
+	struct queueNode *aux = NULL;
+	char *buffer = (char *) malloc (sizeof(char)*MAX_BUFFER_CHAR);
+
+	while(commands!=NULL){
+		buffer=insertVariableValue(commands->nome, sample->nome);
+		aux= insertElem(aux, buffer);
+		commands=commands->next;
+	}
+	return aux;
 }

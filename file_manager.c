@@ -107,3 +107,30 @@ char * insertVariableValue(char *sentence, char *value){
 	}
 	return buffer;
 }
+
+// struct queueNode * makeQueueOutOfCommandsAndSample(struct queueNode *commandsQueue , struct queueNode * samplesQueue){
+//     struct queueNode *commands = commandsQueue;
+// 	struct queueNode *sample = samplesQueue;
+// 	struct queueNode *aux = NULL;
+// 	char *buffer = (char *) malloc (sizeof(char)*MAX_BUFFER_CHAR);
+
+// 	while(commands!=NULL){
+// 		buffer=insertVariableValue(commands->nome, sample->nome);
+// 		aux= insertElem(aux, buffer);
+// 		commands=commands->next;
+// 	}
+// 	return aux;
+// }
+
+char ** makeQueueOutOfCommandsAndSample(char **commandsMatrix, int rows, char* sampleElem){
+	char aux[rows][MAX_BUFFER_CHAR];
+	char *buffer = (char *) malloc (sizeof(char)*MAX_BUFFER_CHAR);
+	int i = 0;
+	while(i<rows){
+		buffer=insertVariableValue(commandsMatrix[i], sampleElem);
+		strcpy(aux[i], buffer);
+		i++;
+	}
+	return aux;
+}
+

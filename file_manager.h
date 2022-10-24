@@ -17,3 +17,4 @@ struct queueNode* trataSamples (FILE *, struct queueNode *);
 void printQueue(struct queueNode *queue);
 struct queueNode* retornaElemN(struct queueNode *, int );
 char * insertVariableValue(char *, char *);
+char** makeQueueOutOfCommandsAndSample(char **, int , char* );
