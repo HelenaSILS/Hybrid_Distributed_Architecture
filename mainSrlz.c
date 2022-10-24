@@ -13,6 +13,14 @@
 #include "file_manager.h"
 #define MSG_FROM_GLOBAL_MASTER 999
 #define NTHREADS 4
+//communication between workers and local master constants
+#define DONE 0
+#define ALMOST_DONE 1
+
+#define PROCESSING 0
+#define GO 1
+#define PAUSE 2
+#define END 3
 
 
 int runCommandOnSample (int, int, int, int, struct queueNode *, struct queueNode *);
@@ -45,7 +53,7 @@ int main(int argc, char *argv[]) {
     /*
     * Input files
     */
-    //FILE *confFile;
+    FILE *confFile;
     FILE *commandsFile;
     FILE *samplesFile;
 
@@ -63,14 +71,49 @@ int main(int argc, char *argv[]) {
 	buffer = (char*)malloc(sizeof(char)*(MAX_BUFFER_CHAR));
 
 	struct queueNode *commandsQueue = NULL;
+    struct queueNode *testeq;
 	commandsQueue=trataSamples(commandsFile, commandsQueue);
+    testeq=commandsQueue;
     printf("comandos: \n");
-	printQueue(commandsQueue);
+	printQueue(testeq);
 
     struct queueNode *samplesQueue = NULL;
 	samplesQueue=trataSamples(samplesFile, samplesQueue);
-    printf("samples: \n");
-	printQueue(samplesQueue);
+    //printf("samples: \n");
+	//printQueue(samplesQueue);
+
+    struct queueNode *auxQueue = commandsQueue;
+	int countCommands=0;
+    while(auxQueue!=NULL){
+        countCommands++;
+		auxQueue=auxQueue->next;
+    }
+    printf("countCommands = %d\n", countCommands);
+
+    char *commandsMatrix[countCommands];
+
+	for(int j=0; j<countCommands; j++){
+		commandsMatrix[j] = (char*) malloc (MAX_BUFFER_CHAR*sizeof(char));
+		strcpy(commandsMatrix[j], commandsQueue->nome);
+		commandsQueue=commandsQueue->next;
+	}
+
+
+    auxQueue = samplesQueue;
+	int countSamples=0;
+    while(auxQueue!=NULL){
+        countSamples++;
+		auxQueue=auxQueue->next;
+    }
+    printf("countSamples = %d\n", countSamples);
+
+    char *samplesMatrix[countSamples];
+
+	for(int j=0; j<countSamples; j++){
+		samplesMatrix[j] = (char*) malloc (MAX_BUFFER_CHAR*sizeof(char));
+		strcpy(samplesMatrix[j], samplesQueue->nome);
+		samplesQueue=samplesQueue->next;
+	}
 
 
     /***********************************************************************************/
@@ -78,15 +121,10 @@ int main(int argc, char *argv[]) {
 
     //criar vetores de exemplo
     int *shared_pointer = (int*)malloc(sizeof(int)*NTHREADS);
-    int *workers_status_array = (int*)malloc(sizeof(int)*NTHREADS);
     
     //exemplos
     for(int i=0; i<NTHREADS; i++){
         shared_pointer[i]=i;
-    }
-
-    for(int i=0; i<NTHREADS; i++){
-        workers_status_array[i]=0;
     }
 
     //pega o tempo atual
@@ -94,7 +132,28 @@ int main(int argc, char *argv[]) {
     initial_time = time(NULL);
     printf("current time inicial: %d\n", initial_time);
 
-    #pragma omp parallel default(shared) shared(shared_pointer, workers_status_array, commandsQueue, samplesQueue) private(iam, np, current_time) firstprivate(rank, numprocs, initial_time) num_threads(NTHREADS)
+    /***********************************************************************************/
+
+    //vectors for communication between workers and local master
+    int *local_master_order_array = (int*)malloc(sizeof(int)*NTHREADS);
+    int *workers_status_array = (int*)malloc(sizeof(int)*NTHREADS);
+    int *p_array = (int*)malloc(sizeof(int)*NTHREADS);
+    int *indexFromLocalMaster = (int*)malloc(sizeof(int)*NTHREADS);
+
+    //exemplos
+    for(int i=0; i<NTHREADS; i++){
+        local_master_order_array[i]=PROCESSING;
+    }
+
+    for(int i=0; i<NTHREADS; i++){
+        workers_status_array[i]=DONE;
+    }
+
+    for(int i=0; i<NTHREADS; i++){
+        p_array[i]=0;
+    }
+
+    #pragma omp parallel default(shared) shared(shared_pointer, workers_status_array, local_master_order_array) private(iam, np, current_time) firstprivate(rank, numprocs, initial_time, samplesMatrix, commandsMatrix, countSamples, countCommands) num_threads(NTHREADS)
     {
         np = omp_get_num_threads();
         iam = omp_get_thread_num();
@@ -108,21 +167,93 @@ int main(int argc, char *argv[]) {
         int statusRun=0;
         int iteration = 0;
 
+    /***********************************************************************************/
+        //workers
         if(!(iam<=1 && rank==0) && !(iam==0 && rank!=0)){ 
-
+            int sysReturn;
             //atualiza um vetor
             shared_pointer[iam]=shared_pointer[iam]*10;
+            printf("shared_pointer[%d]=%d\n", iam,shared_pointer[iam] );
+            struct queueNode *toExecute;
+            char actualSample[MAX_BUFFER_CHAR];
+            char nextSample[MAX_BUFFER_CHAR];
 
-            while(workers_status_array[iam]==0){ 
-                if(rank==1)
-                    sleep(5);
-                statusRun = runCommandOnSample(iteration, iam, rank, numprocs, samplesQueue, commandsQueue);
-                printf("status run de thread %d, rank %d: %d\n", iam, rank, statusRun);
-                iteration++;
-                workers_status_array[iam]=1;
+            // while(workers_status_array[iam]==0){ 
+            //     if(rank==1)
+            //         sleep(5);
+            //     statusRun = runCommandOnSample(iteration, iam, rank, numprocs, samplesQueue, commandsQueue);
+            //     printf("status run de thread %d, rank %d: %d\n", iam, rank, statusRun);
+            //     iteration++;
+            //     workers_status_array[iam]=1;
+            // }
+
+            #pragma omp flush(samplesQueue)
+            //start with actualSample position thread
+            int firstPosition = iam*numprocs+rank;
+            printf("firstPosition = iam*numprocs+rank = %d*%d+%d = %d\n", iam, numprocs, rank, firstPosition);
+            strcpy(actualSample, samplesMatrix[firstPosition]);
+            printf("na thread %d do no %d, first actualSample= %s\n", iam, rank, actualSample->nome);
+	        printQueue(samplesQueue);
+            
+            #pragma omp flush(workers_status_array, local_master_order_array, indexFromLocalMaster)
+            while (local_master_order_array[iam]!=END)
+            {
+            
+
+                if(actualSample == NULL){
+                    //busy wait if there is not a sample
+                    // while(local_master_order_array[iam]!=END){
+                    //     sleep(2);
+                    // }
+                    break;
+                }
+
+                //creates the queue with commands aggregate with the given sample:
+                toExecute = makeQueueOutOfCommandsAndSample (commandsQueue, actualSample);
+
+                //execute until the penultimate one
+                while(toExecute->next->next != NULL){
+                    
+                    //sysReturn = system(toExecute->nome);
+                    // if(sysReturn!=0){
+                    //     printf("error in %s\n", toExecute->nome);
+                    // }
+                    printf("a ser executado: %s\n",toExecute->nome);
+                    toExecute = toExecute->next;
+                }
+                p_array[iam]=1;
+                workers_status_array[iam]=ALMOST_DONE;
+
+                //I am otimist that this while will never be true, but it is an important logical lock
+                while(local_master_order_array[iam]!=PROCESSING){
+                    sleep(1);
+                }
+
+                //execute the last one
+                toExecute=toExecute->next;
+                //sysReturn = system(toExecute->nome);
+                // if(sysReturn!=0){
+                //     printf("error in %s\n", toExecute->nome);
+                // }
+                printf("%s\n",toExecute->nome);
+
+                //next step happens only when nextSample is updated
+                while(local_master_order_array[iam]!=GO){
+                    nanosleep(200);
+                }
+
+                #pragma omp flush(indexFromLocalMaster)
+                nextSample = retornaElemN(samplesQueue, indexFromLocalMaster[iam]);
+                actualSample=nextSample;
+                workers_status_array[iam]=DONE;
+
             }
 
         }
+
+    /***********************************************************************************/
+
+    /***********************************************************************************/
 
         //master global
         if(iam==0 && rank==0){ 
@@ -158,7 +289,14 @@ int main(int argc, char *argv[]) {
         } 
         }else{ 
 
-            //master local do no 0
+
+
+    /***********************************************************************************/
+
+    /***********************************************************************************/
+ 
+
+            //Local Master
             if((iam==1 && rank==0) || (iam==0 && rank==1)){
             #pragma omp single nowait
             //#pragma omp critical
@@ -169,27 +307,58 @@ int main(int argc, char *argv[]) {
                 int i=0;
                 int brk = 0;
                 int erro1, erro2;
-                
-                while(i < NTHREADS){
-                    nanosleep(500);
-                    #pragma omp flush(workers_status_array)
-                    if(workers_status_array[i]==1){
-                        current_time = time(NULL);
-                        duration = difftime(current_time, initial_time);
-                        printf("no master local %d: workers_status_array[%d]=%d\n",iam, i, workers_status_array[i]);
-                        brk=1;
-                        workers_status_array[i]=0;
-                        break;
+                struct queueNode *aux;
+
+               //there are NTHREAD*numprocs-numprocs-1 workers threads, so, initially, it is the first value
+                int iterator = 0;
+                int indexSample = NTHREADS*numprocs-numprocs-1 + rank*iterator;
+                printf("valor do indice na fila de sample do rank %d, iteracao %d: %d\n", rank, iterator, indexSample);
+
+                //rank 0 has two masters threads: local and global; the other ranks have only local thread
+                int smallest_thread = (rank==0) ? 2 : 1;
+                int greatest_thread = NTHREADS;
+                int threadIterator = smallest_thread;
+
+                struct queueNode *Sample = retornaElemN(samplesQueue, indexSample);
+
+                while(Sample!=NULL){
+                    
+                    while(threadIterator<greatest_thread){
+
+                        #pragma omp flush(workers_status_array, local_master_order_array, indexFromLocalMaster)
+                        if(workers_status_array[threadIterator]==ALMOST_DONE && local_master_order_array[threadIterator]==PROCESSING){
+                            #pragma omp flush(indexFromLocalMaster)
+                            indexFromLocalMaster[threadIterator]=indexSample;
+                            indexSample=indexSample+numprocs;
+                            local_master_order_array[threadIterator]==GO;
+                            break;
+                        }
+
+                        #pragma omp flush(workers_status_array, local_master_order_array)
+                        if(workers_status_array[threadIterator]==DONE && local_master_order_array[threadIterator]!=PROCESSING){
+                            local_master_order_array[threadIterator]==PROCESSING;
+                        }
+
+                        threadIterator = (threadIterator=greatest_thread-1) ? smallest_thread : threadIterator+1;
+
                     }
-                    i++;
-                    if(i==NTHREADS){
-                        i=0;
-                    }
+                    
+                    iterator++;
+                    indexSample = (NTHREADS*numprocs-numprocs-1 + rank*iterator);
+                    #pragma omp flush(samplesQueue)
+                    Sample = retornaElemN(samplesQueue, indexSample);
                 }
 
-                printf("initial time master local: %.7f\n", initial_time);
-                printf("current time master local: %.7f\n", current_time);
-                printf("duration em %d: %.7f\n",iam, duration);
+
+                threadIterator=smallest_thread;
+                while(threadIterator<greatest_thread){
+                    #pragma omp flush(workers_status_array, local_master_order_array)
+                    local_master_order_array[threadIterator]==END;
+                }
+
+
+                current_time = time(NULL);
+                duration = difftime(current_time, initial_time);
                 snprintf(enviando, 50, "%lf", duration);
 
                 erro1=MPI_Send(enviando, 50, MPI_CHAR, 0, (rank*100+iam), MPI_COMM_WORLD);
@@ -199,7 +368,14 @@ int main(int argc, char *argv[]) {
                 printf("status do Recv Master local %d = %d\n", iam, erro2);
                 printf("de volta, rank %d: %s\n", rank, enviando);
             }
-            } //else{ 
+            } 
+
+    /***********************************************************************************/
+
+            
+            
+            
+                //else{ 
 
                 // //master local do no 1
                 // if(iam==0 && rank==1){
@@ -248,3 +424,4 @@ int runCommandOnSample (int iteration, int iam, int rank, int numprocs, struct q
     return 0;
 
 }
+
