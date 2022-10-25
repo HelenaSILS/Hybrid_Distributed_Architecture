@@ -208,6 +208,7 @@ int main(int argc, char *argv[]) {
                 }
 
                 printf("countCommands da thread %d, rank %d: %d\n", iam, rank, countCommands);
+                
 
                 //creates the queue with commands aggregate with the given sample:
                 toExecute = makeQueueOutOfCommandsAndSample (commandsMatrix, countCommands, actualSample);
