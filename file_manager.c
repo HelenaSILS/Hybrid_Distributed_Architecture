@@ -123,11 +123,14 @@ char * insertVariableValue(char *sentence, char *value){
 // }
 
 char ** makeQueueOutOfCommandsAndSample(char **commandsMatrix, int rows, char* sampleElem){
-	char aux[rows][MAX_BUFFER_CHAR];
+	//char aux[rows][MAX_BUFFER_CHAR];
+	char **aux;
 	char *buffer = (char *) malloc (sizeof(char)*MAX_BUFFER_CHAR);
 	int i = 0;
+	aux=(char**) malloc (sizeof(char*)*rows);
 	while(i<rows){
 		buffer=insertVariableValue(commandsMatrix[i], sampleElem);
+		aux[i] = (char*) malloc (sizeof(char)*MAX_BUFFER_CHAR);
 		strcpy(aux[i], buffer);
 		i++;
 	}

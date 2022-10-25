@@ -174,7 +174,7 @@ int main(int argc, char *argv[]) {
             //atualiza um vetor
             shared_pointer[iam]=shared_pointer[iam]*10;
             printf("shared_pointer[%d]=%d\n", iam,shared_pointer[iam] );
-            char **toExecute;
+            char **toExecute = (char**) malloc (sizeof(char*)*countCommands);
             char actualSample[MAX_BUFFER_CHAR];
             char nextSample[MAX_BUFFER_CHAR];
 
@@ -199,7 +199,6 @@ int main(int argc, char *argv[]) {
             while (local_master_order_array[iam]!=END)
             {
             
-
                 if(actualSample == NULL){
                     //busy wait if there is not a sample
                     // while(local_master_order_array[iam]!=END){
@@ -208,18 +207,20 @@ int main(int argc, char *argv[]) {
                     break;
                 }
 
+                printf("countCommands da thread %d, rank %d: %d\n", iam, rank, countCommands);
+
                 //creates the queue with commands aggregate with the given sample:
                 toExecute = makeQueueOutOfCommandsAndSample (commandsMatrix, countCommands, actualSample);
-
+                printf("sobrevivi\n");
                 //execute until the penultimate one
                 int j=0;
-                while(j<countCommands-1){
+                while(j<(countCommands-1)){
                     
                     //sysReturn = system(toExecute->nome);
                     // if(sysReturn!=0){
                     //     printf("error in %s\n", toExecute->nome);
                     // }
-                    printf("a ser executado: %s\n",(toExecute+j*MAX_BUFFER_CHAR));
+                    printf("a ser executado: %s\n",toExecute[j]);
                     j++;
                 }
                 p_array[iam]=1;
@@ -235,7 +236,7 @@ int main(int argc, char *argv[]) {
                 // if(sysReturn!=0){
                 //     printf("error in %s\n", toExecute->nome);
                 // }
-                printf("%s\n",(toExecute+j*MAX_BUFFER_CHAR));
+                printf("%s\n",toExecute[j]);
 
                 //next step happens only when nextSample is updated
                 while(local_master_order_array[iam]!=GO){
@@ -331,6 +332,7 @@ int main(int argc, char *argv[]) {
                             #pragma omp flush(indexFromLocalMaster)
                             indexFromLocalMaster[threadIterator]=indexSample;
                             local_master_order_array[threadIterator]==GO;
+                            //printf("no master local %d, rank %d, indexSample %d\n", iam, rank, indexSample);
                             break;
                         }
 

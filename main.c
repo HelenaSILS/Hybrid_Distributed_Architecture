@@ -17,7 +17,8 @@ struct queueNode* trataSamples (FILE *, struct queueNode *);
 void printQueue(struct queueNode *queue);
 struct queueNode* retornaElemN(struct queueNode *, int );
 char * insertVariableValue(char *, char *);
-struct queueNode * makeQueueOutOfCommandsAndSample (struct queueNode *, struct queueNode *);
+//struct queueNode * makeQueueOutOfCommandsAndSample (struct queueNode *, struct queueNode *);
+char** makeQueueOutOfCommandsAndSample(char **, int , char* );
 
 int main(int argc, char *argv[]){
 FILE *conf;
@@ -75,13 +76,18 @@ FILE *samples;
 	printf("antes, count: %d\n", countCommands);
 
 	for(int j=0; j<countCommands; j++){
-		printf("dentro do for j:%d\n", j);
+		//printf("dentro do for j:%d\n", j);
 		commandsMatrix[j] = (char*) malloc (MAX_BUFFER_CHAR*sizeof(char));
-		printf("malocou, countCommands= %d \n", countCommands);
-		printf("queue-nome: %s\n", queue->nome);
+		//printf("malocou, countCommands= %d \n", countCommands);
+		//printf("queue-nome: %s\n", queue->nome);
 		strcpy(commandsMatrix[j], queue->nome);
 		queue=queue->next;
 	}
+
+	char *actualSample = "vjfvjkd";
+    char **toExecute = (char**) malloc (sizeof(char*)*countCommands);
+	toExecute = makeQueueOutOfCommandsAndSample (commandsMatrix, countCommands, actualSample);
+	printf("a ser executado: %s\n",toExecute[1]);
 
 
 
@@ -200,16 +206,31 @@ char * insertVariableValue(char *sentence, char *value){
 	return buffer;
 }
 
-struct queueNode * makeQueueOutOfCommandsAndSample(struct queueNode *commandsQueue , struct queueNode * samplesQueue){
-    struct queueNode *commands = commandsQueue;
-	struct queueNode *sample = samplesQueue;
-	struct queueNode *aux = NULL;
-	char *buffer = (char *) malloc (sizeof(char)*MAX_BUFFER_CHAR);
+// struct queueNode * makeQueueOutOfCommandsAndSample(struct queueNode *commandsQueue , struct queueNode * samplesQueue){
+//     struct queueNode *commands = commandsQueue;
+// 	struct queueNode *sample = samplesQueue;
+// 	struct queueNode *aux = NULL;
+// 	char *buffer = (char *) malloc (sizeof(char)*MAX_BUFFER_CHAR);
 
-	while(commands!=NULL){
-		buffer=insertVariableValue(commands->nome, sample->nome);
-		aux= insertElem(aux, buffer);
-		commands=commands->next;
+// 	while(commands!=NULL){
+// 		buffer=insertVariableValue(commands->nome, sample->nome);
+// 		aux= insertElem(aux, buffer);
+// 		commands=commands->next;
+// 	}
+// 	return aux;
+// }
+
+char ** makeQueueOutOfCommandsAndSample(char **commandsMatrix, int rows, char* sampleElem){
+	//char aux[rows][MAX_BUFFER_CHAR];
+	char **aux;
+	char *buffer = (char *) malloc (sizeof(char)*MAX_BUFFER_CHAR);
+	int i = 0;
+	aux=(char**) malloc (sizeof(char*)*rows);
+	while(i<rows){
+		buffer=insertVariableValue(commandsMatrix[i], sampleElem);
+		aux[i] = (char*) malloc (sizeof(char)*MAX_BUFFER_CHAR);
+		strcpy(aux[i], buffer);
+		i++;
 	}
 	return aux;
 }
