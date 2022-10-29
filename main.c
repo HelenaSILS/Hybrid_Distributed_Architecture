@@ -1,7 +1,8 @@
 # include <stdio.h>
 # include <stdlib.h>
 # include <string.h>
-# define MAX_BUFFER_CHAR 500
+# define MAX_BUFFER_CHAR 512
+# define MAX_LINE 512
 
 //Estruturas de dados
 struct queueNode{
@@ -47,7 +48,9 @@ FILE *samples;
 
 	queue=trataSamples(conf, queue);
 	struct queueNode *outro = queue;
-	//printQueue(outro);
+
+	struct queueNode *outro2 = queue;
+	printQueue(outro2);
 	// struct queueNode *aux1, *aux2;
 	// aux1=retornaElemN(queue, 9);
 	// aux2=retornaElemN(queue, 11);
@@ -99,34 +102,46 @@ FILE *samples;
 	return 0;
 }
 
+
 char* readlinefile (FILE *f, int length, char *c){
 	//char c;
 	char *string, *aux;
 	int i=0;
 	//buffer de tamanho excedente
-	string = (char*)malloc(sizeof(char)*(length+1));
-	*c = fgetc(f);	
-    while(*c!='\n' && *c!= EOF){
+	printf("antes do malloc de readlinefile\n");
+	string = (char*)calloc(MAX_BUFFER_CHAR, sizeof(char));
+
+	if(string==NULL)
+		printf("readlinefile falhou no calloc\n");
+	printf("depois do malloc de readlinefile\n");
+
+	*c = fgetc(f);
+	printf("depois do primeiro fget de readlinefile\n");
+    while(*c!='\n' && *c!='\r' && *c!= EOF){
             string[i]=*c;
             i++;
 			*c = fgetc(f);
+			printf("em cada fgetc do while: %c\n", *c);
 	}
 	string[i]='\0';
+
+	printf("q q tem depois do while: %s\n", string);
 	//aux de tamanho apropriado para que nao haja lixo
-	aux = (char*)malloc(sizeof(char)*(i+2));
-	strncpy(aux, string, (i+2));
-	return aux;
+	//aux = (char*)malloc(sizeof(char)*(length));
+	//strncpy(aux, string, length);
+	return string;
 }
 
 //void insertElem (struct queueNode *, char *);
 struct queueNode * insertElem (struct queueNode * queue, char * buffer){
 
-	struct queueNode *aux, *new;
-
 	//create the new Element
-	new = (struct queueNode*) malloc (sizeof(struct queueNode));
-	strcpy(new->nome, buffer);
-	new->next=NULL;
+	struct queueNode new;
+	struct queueNode *aux;
+
+	//new = (struct queueNode*) malloc (sizeof(struct queueNode));
+	strcpy(new.nome, buffer);
+	new.next=NULL;
 
 	//not the first element ever
 	if(queue!=NULL){
@@ -136,12 +151,12 @@ struct queueNode * insertElem (struct queueNode * queue, char * buffer){
 		}
 
 		//update before the last one
-		aux->next=new;
+		aux->next=&new;
 
 	//the first element ever
 		return queue;
 	}else{
-		return new;
+		return &new;
 	}
 }
 
@@ -150,12 +165,26 @@ struct queueNode * trataSamples (FILE *f, struct queueNode *queue){
 	char c;
 	char *buffer;
 	int i=0;
-	buffer = (char*)malloc(sizeof(char)*(MAX_BUFFER_CHAR));
+	printf("chegou em  trataSample\n");
+	//buffer = (char*)malloc(sizeof(char)*(MAX_BUFFER_CHAR));
+	buffer = (char*)malloc(MAX_LINE);
+	if(buffer==NULL)
+		printf("impossivel alocar\n");
+	printf("malocou buffer de trataSample\n");
 
 	while(c!=EOF){ 
-		buffer=readlinefile(f, MAX_BUFFER_CHAR, &c);
+		printf("antes do da chamada de readline de trataSamples\n");
+		//buffer=readlinefile(f, MAX_BUFFER_CHAR, &c);
+		fscanf(f, "%[^\b]", buffer);
+		printf("depois do da chamada de readline de trataSamples\n");
 		queue = insertElem (queue,buffer);
-		free(buffer);
+		printf("depois do da chamada de insertElem de trataSamples\n");
+		for (int i = 0; i < MAX_BUFFER_CHAR; i++)
+		{
+			buffer='\0';
+		}	
+
+		printf("depois de limpar o buffer no trataSample\n");
 	}
 	return queue;
 }
@@ -199,7 +228,7 @@ char * insertVariableValue(char *sentence, char *value){
 			j++;
 		}
 		if (i>=MAX_BUFFER_CHAR){
-			printf("extrapolou\n");
+			printf("extrapolou tamanho da string\n");
 			return NULL;
 		}		
 	}
@@ -234,3 +263,4 @@ char ** makeQueueOutOfCommandsAndSample(char **commandsMatrix, int rows, char* s
 	}
 	return aux;
 }
+

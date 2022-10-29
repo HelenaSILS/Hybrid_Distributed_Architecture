@@ -1,0 +1,34 @@
+#!/bin/bash
+#SBATCH --nodes=1            # Numero de nos solicitados
+#SBATCH --ntasks-per-node=24 # Numero de tarefas por no
+#SBATCH -p sequana_cpu       # Fila (partition) de execucao escolhida
+#SBATCH -J IPV-60            # Nome do job
+#SBATCH --time=08:00:00      # Tempo limite para execucao = 8 horas
+#SBATCH --exclusive          # Dedicação exclusiva dos nós durante a execução do job
+
+#Exibe hora da submissão ao sbatch e informacoes adicionais
+date
+echo Info-Prefetch-Validate Sequana-cpu 1 node nthread 1 SRR13705660
+
+#Exibe os nós alocados para o Job
+echo $SLURM_JOB_NODELIST
+nodeset -e $SLURM_JOB_NODELIST
+
+cd $SLURM_SUBMIT_DIR
+
+#Caminho da ferramenta que será executada
+EXEC=/scratch/app/sratoolkit/2.10.5/bin/vdb-dump
+
+#Carrega ferramenta e seus parametros  
+module load sratoolkit/2.10.5
+EXEC=/scratch/app/sratoolkit/2.10.5/bin/prefetch
+
+SRR_Acc_List="./SRR_Acc_List.txt"
+while IFS= read -r line
+do
+ time $EXEC -X 100000000 "$line" -O /scratch/inova-covd19/helena.silva/MeusTestes/experimento01
+done < "$SRR_Acc_List"
+
+#time $EXEC --info SRR13705660
+
+date
