@@ -1,6 +1,6 @@
-/scratch/app/sratoolkit/2.10.5/bin/vdb-validate $
-888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
-777777777777777777
-999999999999999999
-mv $.sra_1.fastq.gz $_S1_L001_R1_001.fastq.gz
-mv $.sra_1.fastq.gz $_S1_L001_R2_001.fastq.gz
+/scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/$/$.sra
+/scratch/app/sratoolkit/2.10.5/bin/fasterq-dump /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/$/$.sra -m 256000MB -e 24 -3 -S --skip-technical -O /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/$  -t /tmp
+gzip /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/$/$.sra_1.fastq
+gzip /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/$/$.sra_2.fastq
+mv /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/$/$.sra_1.fastq.gz $_S1_L001_R1_001.fastq.gz
+mv /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/$/$.sra_2.fastq.gz $_S1_L001_R2_001.fastq.gz

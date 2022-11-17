@@ -109,14 +109,13 @@ int main(int argc, char *argv[]) {
     while (fscanf(commandsFile, "%[^\n] ", buffer) != EOF) {
         countCommands++;
     }
-    printf("countCommands = %d\n", countCommands);
+    printf("numero de comandos = %d\n", countCommands);
     rewind(commandsFile);
     
     char commandsMatrix[countCommands][MAX_BUFFER_CHAR];
     for(int j=0; j<countCommands; j++){
 		fscanf(commandsFile, "%[^\n] ", buffer);
 		strcpy(commandsMatrix[j], buffer);
-		printf("%s\n",commandsMatrix[j]);
 	}
 
 
@@ -125,7 +124,7 @@ int main(int argc, char *argv[]) {
     while (fscanf(samplesFile, "%[^\n] ", buffer) != EOF) {
         countSamples++;
     }
-    printf("countSamples = %d\n", countSamples);
+    printf("numero de amostras .sra = %d\n", countSamples);
     rewind(samplesFile);
 
     char samplesMatrix[countSamples][MAX_BUFFER_CHAR];
@@ -133,9 +132,7 @@ int main(int argc, char *argv[]) {
 	for(int j=0; j<countSamples; j++){
         fscanf(samplesFile, "%[^\n] ", buffer);
 		strcpy(samplesMatrix[j], buffer);
-		printf("%s\n",samplesMatrix[j]);
 	}
-
 
     /***********************************************************************************/
 
@@ -209,7 +206,7 @@ int main(int argc, char *argv[]) {
             //     workers_status_array[iam]=1;
             // }
 
-            #pragma omp flush(samplesMatrix)
+
             //start with crntSample position thread
             // int firstPosition = iam*numprocs+rank;
             // printf("firstPosition = iam*numprocs+rank = %d*%d+%d = %d\n", iam, numprocs, rank, firstPosition);
@@ -228,8 +225,8 @@ int main(int argc, char *argv[]) {
             #pragma omp flush(workers_status_array, local_master_order_array, indexFromLocalMaster)
             while (position < countSamples)
             {
-                #pragma omp flush(indexFromLocalMaster)
                 printf("firstPosition = iam*numprocs+rank = %d*%d+%d = %d\n", iam, numprocs, rank, position);
+                #pragma omp flush(samplesMatrix)
                 strcpy(crntSample, samplesMatrix[position]);
                 printf("na thread %d do no %d, first crntSample= %s\n", iam, rank, crntSample);
                 // if(crntSample == NULL){
@@ -243,16 +240,22 @@ int main(int argc, char *argv[]) {
                 printf("countCommands da thread %d, rank %d: %d\n", iam, rank, countCommands);
                 
                 //creates the queue with commands aggregate with the given sample:
+                #pragma omp flush(commandsMatrix, countSamples, countCommands)
+                for(int k = 0; k<countCommands;k++){
+                    printf("dentro do worker, commandsMatrix[%d]=%s\n", k, commandsMatrix[k]);
+                }
+                printf("no worker, crntSample: %s\n", crntSample);
+                #pragma omp flush(commandsMatrix, countCommands)
                 makeQueueOutOfCommandsAndSample (commandsMatrix, countCommands, crntSample, toExecute);
 
                 //execute until the penultimate one
                 int j=0;
                 while(j<(countCommands-1)){
                     
-                    sysReturn = system(toExecute[j]);
-                    if(sysReturn!=0){
-                        printf("error in, thread %d, rank %d %s\n", toExecute[j]);
-                    }
+                    // sysReturn = system(toExecute[j]);
+                    // if(sysReturn!=0){
+                    //     printf("error in, thread %d, rank %d %s\n", toExecute[j]);
+                    // }
                     printf("a ser executado da thread %d, rank %d, iterator %d: %s\n",iam, rank, iterator, toExecute[j]);
                     j++;
                 }
@@ -265,10 +268,10 @@ int main(int argc, char *argv[]) {
                 // }
 
                 //execute the last one
-                sysReturn = system(toExecute[j]);
-                if(sysReturn!=0){
-                    printf("error in, thread %d, rank %d %s\n", toExecute[j]);
-                }
+                // sysReturn = system(toExecute[j]);
+                // if(sysReturn!=0){
+                //     printf("error in, thread %d, rank %d %s\n", toExecute[j]);
+                // }
                 printf("%s\n",toExecute[j]);
 
                 //next step happens only when nextSample is updated

@@ -1,8 +1,8 @@
 # include <stdio.h>
 # include <stdlib.h>
 # include <string.h>
-# define MAX_BUFFER_CHAR 320
-# define MAX_LINE 320
+# define MAX_BUFFER_CHAR 512
+# define MAX_LINE 512
 
 //Estruturas de dados
 struct queueNode{

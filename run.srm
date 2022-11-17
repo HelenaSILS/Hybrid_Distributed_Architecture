@@ -3,7 +3,7 @@
 #SBATCH --ntasks-per-node=1           #Numero de tarefas por Nó
 #SBATCH --ntasks=2                    #Numero total de tarefas MPI
 #SBATCH --cpus-per-task 24		#Numero de threads por tarefa MPI
-#SBATCH -p sequana_cpu                 #Fila (partition) a ser utilizada
+#SBATCH -p sequana_cpu_dev                 #Fila (partition) a ser utilizada
 #SBATCH -J sdumont-mpi                 #Nome job
 #SBATCH --exclusive                    #Utilização exclusiva dos nós durante a execução do job
 #SBATCH --time=00:08:00
@@ -32,6 +32,5 @@ module load sequana/current
 EXEC=${1}
 
 time srun -n $SLURM_NTASKS $EXEC comandos.txt SRR_Acc_List.txt
-
 
 

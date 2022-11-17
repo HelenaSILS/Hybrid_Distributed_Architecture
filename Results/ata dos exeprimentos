@@ -1,0 +1,30 @@
+Experimento 01:
+
+a)Baseline sequencial:
+script no SDumont: comandosSequenciais.srm (/scratch/inova-covd19/helena.silva/MeusTestes/experimento01)
+duração máxima: 24 horas
+local de execução: sequana
+obteve sucesso: em partes (terminou no SRR12570256, isto é, no 256, na fil que do 90 ao 303)
+resultado: 24h para fazer workflow de comandos.txt, samples de SRR12570090 a SRR12570256
+
+
+b)Puramente paralelo
+
+
+c)Arquitetura versão 01:
+script no SDumont: experimento01.srm (/scratch/inova-covd19/helena.silva/MeusTestes/experimento01)
+duração máxima: 20 horas
+local de execução: sequana
+inputs: comandos.txt e SRR_Acc_List.txt (com os srrs de 90 a 256 do baseline)
+c.1) NThreads = 4, nodes = 2
+Houve algum erro (log em experimento10677276.out)
+-tentativa na sequana_cpu_dev com 20 minutos, deu certo
+Mudança no compilador MPI
+Retentativa, atualizando o script para experimento01b.srm e compilar5
+Sucesso no outputArquitetura10693696.out
+Tempo:
+real    663m17.980s
+user    0m0.050s
+sys     0m0.142s
+
+c.1) NThreads = 8, nodes = 2
