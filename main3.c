@@ -32,18 +32,18 @@ int main(int argc, char *argv[]) {
     int provided, required=MPI_THREAD_MULTIPLE;
     init=MPI_Init_thread(&argc, &argv, required, &provided);
     if(init!=MPI_SUCCESS){
-        printf("Erro ao inicializar o MPI_Init_thread\n");
+        fprintf(stderr,"Erro ao inicializar o MPI_Init_thread\n");
         exit(1);
     }
     MPI_Comm_size(MPI_COMM_WORLD, &numprocs);
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
     MPI_Get_processor_name(processor_name, &namelen);
-    printf("no MPI, rank: %d, MPI_COMM_WORLD: %d, processors name: %s\n", rank, MPI_COMM_WORLD, processor_name);
+    fprintf(stderr,"no MPI, rank: %d, MPI_COMM_WORLD: %d, processors name: %s\n", rank, MPI_COMM_WORLD, processor_name);
 
 
     /* Check that the MPI implementation supports MPI_THREAD_MULTIPLE */
     if (provided < MPI_THREAD_MULTIPLE) {
-        printf("MPI does not support MPI_THREAD_MULTIPLE\n");
+        fprintf(stderr,"MPI does not support MPI_THREAD_MULTIPLE\n");
         MPI_Abort(MPI_COMM_WORLD, -1);
         return 0;
     }
@@ -58,12 +58,12 @@ int main(int argc, char *argv[]) {
     FILE *samplesFile;
 
     if ((commandsFile = fopen(argv[1], "r"))==NULL){
-        printf("erro ao abrir arquivo comandos\n");
+        fprintf(stderr,"erro ao abrir arquivo comandos\n");
         exit(1);
     }
 
     if ((samplesFile = fopen(argv[2], "r"))==NULL){
-        printf("erro ao abrir arquivo samples\n");
+        fprintf(stderr,"erro ao abrir arquivo samples\n");
         exit(1);
     }
     // printf("primeiro malloc\n");
@@ -110,7 +110,7 @@ int main(int argc, char *argv[]) {
     while (fscanf(commandsFile, "%[^\n] ", buffer) != EOF) {
         countCommands++;
     }
-    printf("numero de comandos = %d\n", countCommands);
+    fprintf(stderr,"numero de comandos = %d\n", countCommands);
     rewind(commandsFile);
     
     char commandsMatrix[countCommands][MAX_BUFFER_CHAR];
@@ -129,7 +129,7 @@ int main(int argc, char *argv[]) {
     while (fscanf(samplesFile, "%[^\n] ", buffer) != EOF) {
         countSamples++;
     }
-    printf("numero de amostras .sra = %d\n", countSamples);
+    fprintf(stderr,"numero de amostras .sra = %d\n", countSamples);
     rewind(samplesFile);
 
     char samplesMatrix[countSamples][MAX_BUFFER_CHAR];
@@ -174,7 +174,7 @@ int main(int argc, char *argv[]) {
     //pega o tempo atual
     time_t initial_time, current_time;
     initial_time = time(NULL);
-    printf("current time inicial: %d\n", initial_time);
+    fprintf(stderr,"current time inicial: %d\n", initial_time);
 
     /***********************************************************************************/
 
@@ -235,7 +235,9 @@ int main(int argc, char *argv[]) {
 
             int iterator=0;
             int offset = (rank==0) ? 2 : 1;
-            int position = (iam-offset)*numprocs + rank + (NTHREADS*numprocs-2*offset)*iterator;
+            //int position = (iam-offset)*numprocs + rank + (NTHREADS*numprocs-2*offset)*iterator;
+            int position = (iam-offset)*numprocs + rank + (NTHREADS-offset)*numprocs*iterator;
+
             // printf("firstPosition = iam*numprocs+rank = %d*%d+%d = %d\n", iam, numprocs, rank, position);
             // strcpy(crntSample, samplesMatrix[position]);
             // printf("na thread %d do no %d, first crntSample= %s\n", iam, rank, crntSample);
@@ -253,7 +255,7 @@ int main(int argc, char *argv[]) {
                     //printf("dentro da thread %d, processo %d, execute[%d][%d]: %s\n", iam, rank, position, iterator, executeMatrix[position][i]);
                     sysReturn = system(executeMatrix[position][i]);
                     if(sysReturn!=0){
-                         printf("error in, thread %d, rank %d %s\n", iam, rank, executeMatrix[position][i]);
+                         fprintf(stderr,"error in, thread %d, rank %d %s\n", iam, rank, executeMatrix[position][i]);
                     }
                 }
 
@@ -270,7 +272,7 @@ int main(int argc, char *argv[]) {
                 //execute the last one
                 sysReturn = system(executeMatrix[position][i]);
                 if(sysReturn!=0){
-                        printf("error in, thread %d, rank %d %s\n", iam, rank, executeMatrix[position][i]);
+                        fprintf(stderr,"error in, thread %d, rank %d %s\n", iam, rank, executeMatrix[position][i]);
                 }
                 //printf("(ultimo) dentro da thread %d, processo %d, execute[%d][%d]: %s\n", iam, rank, position, iterator, executeMatrix[position][i]);
                 
@@ -283,7 +285,7 @@ int main(int argc, char *argv[]) {
 
                 current_time = time(NULL);
                 duration = difftime(current_time, initial_time);
-                printf("termino de thread %d, rank %d, duration:  %lf, %s\n", iam, rank, duration, executeMatrix[position][0]);
+                fprintf(stderr,"termino de thread %d, rank %d, duration:  %lf, %s\n", iam, rank, duration, executeMatrix[position][0]);
 
                 
                 iterator++;
@@ -320,9 +322,9 @@ int main(int argc, char *argv[]) {
                 sleep(1);
                 if(flags[i] && status[i].MPI_TAG!=MSG_FROM_GLOBAL_MASTER){ 
                     erro1=MPI_Recv(recebendo, 50, MPI_CHAR, status[i].MPI_SOURCE, MPI_ANY_TAG, MPI_COMM_WORLD, &status[i]);
-                    printf("status Recv Master Global: %d, message de %d recb.: %s\n", erro1, status[i].MPI_SOURCE, recebendo);
+                    fprintf(stderr,"status Recv Master Global: %d, message de %d recb.: %s\n", erro1, status[i].MPI_SOURCE, recebendo);
                     erro2=MPI_Send(devolta, 50, MPI_CHAR, status[i].MPI_SOURCE, MSG_FROM_GLOBAL_MASTER, MPI_COMM_WORLD);
-                    printf("status do Send do Master Global = %d, enviando para %d \n", erro2, status[i].MPI_SOURCE);
+                    fprintf(stderr,"status do Send do Master Global = %d, enviando para %d \n", erro2, status[i].MPI_SOURCE);
                     nlocal_master--;
                     probe = -1;
                 }
@@ -340,7 +342,7 @@ int main(int argc, char *argv[]) {
  
 
             //Local Master
-            if((iam==1 && rank==0) || (iam==0 && rank==1)){
+            if((iam==1 && rank==0) || (iam==0 && rank!=0)){
             #pragma omp single nowait
             {
                 char enviando[50] = "bibi";
@@ -354,7 +356,7 @@ int main(int argc, char *argv[]) {
                //there are NTHREAD*numprocs-numprocs-1 workers threads, so, initially, it is the first value
                 int iterator = 0;
                 int indexSample = NTHREADS*numprocs-numprocs-1 + rank*iterator;
-                printf("valor do indice na fila de sample do rank %d, iteracao %d: %d\n", rank, iterator, indexSample);
+                fprintf(stderr,"valor do indice na fila de sample do rank %d, iteracao %d: %d\n", rank, iterator, indexSample);
 
                 //rank 0 has two masters threads: local and global; the other ranks have only local thread
                 int smallest_thread = (rank==0) ? 2 : 1;
@@ -405,11 +407,11 @@ int main(int argc, char *argv[]) {
                 snprintf(enviando, 50, "%lf", duration);
 
                 erro1=MPI_Send(enviando, 50, MPI_CHAR, 0, (rank*100+iam), MPI_COMM_WORLD);
-                printf("status do Send Master local %d = %d\n", iam, erro1);
+                fprintf(stderr,"status do Send Master local %d = %d\n", iam, erro1);
 
                 erro2=MPI_Recv(enviando, 50, MPI_CHAR, 0, MSG_FROM_GLOBAL_MASTER, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
                 printf("status do Recv Master local %d = %d\n", iam, erro2);
-                printf("de volta, rank %d: %s\n", rank, enviando);
+                fprintf(stderr,"de volta, rank %d: %s\n", rank, enviando);
             }
             } 
 

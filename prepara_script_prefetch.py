@@ -18,7 +18,7 @@ linesCommands = commands.readlines()
 for srr in linesSample:
     for cmd in linesCommands:
         new = cmd.replace("$", srr.rstrip())
-        new = new.rstrip() + "&\n"
+        new = new.rstrip() + ";\n"
         output.write(new)
             # p=p+1
             # p=p%6

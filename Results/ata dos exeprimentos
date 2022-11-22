@@ -28,3 +28,84 @@ user    0m0.050s
 sys     0m0.142s
 
 c.1) NThreads = 8, nodes = 2
+erro no experimento outputArquitetura10694776.out
+segunda tentativa, so tirando o apagar_conteudo do script (terminava antes da arquitetura) -> (job outputArquitetura10694878.out) mesmo erro:
+    Loading SEQUANA Software environment
+    Thu Nov 17 02:53:39 -03 2022
+    workflow com arquitetura - experimento 01B, 8 Threads
+    ModuleCmd_Load.c(213):ERROR:105: Unable to locate a modulefile for 'sratoolkit/2.10.5'
+    teste_mpi_omp: error while loading shared libraries: libiomp5.so: cannot open shared object file: No such file or directory
+    teste_mpi_omp: error while loading shared libraries: libiomp5.so: cannot open shared object file: No such file or directory
+    srun: error: sdumont6246: task 0: Exited with exit code 127
+    srun: error: sdumont6248: task 1: Exited with exit code 127
+terceira tentativa, comentando , job 10694961
+
+
+experimento 2) Experimentos com 2 nós
+compilar com script compilar6 e rodar com script experimento01b.srm, 148 samples (90 ao 138)
+output: output2Arquitetura<job>.out
+inputs: comandos.txt ; SRR_150_desc_exp2
+a) 8 threads, ordem desc, job 10698496
+Resultado: falhei, pois meu arquivo de samples SRR_150_desc_exp2 só tinha 149 samples. Tive que atualizar e refazer.
+Porém, para os 149 samples, durou 100 minutos, ou seja, 89,4 samples por hora
+
+a-1)  8 threads, ordem desc, job 10698730 com saida output2Arquitetura10698730.out
+Sucesso!
+real    104m12.648s
+user    0m0.056s
+sys     0m0.108s
+
+b)  16 threads, ordem desc, job 10698866
+Resultado: sucesso maravilhoso!
+real    49m7.345s
+user    0m0.065s
+sys     0m0.103s
+
+c) 24 threads, ordem desc, job 10699075 com saida output2Arquitetura10699075.out
+Resultado: sucesso maravilhoso!
+real    35m55.918s
+user    0m0.056s
+sys     0m0.108s
+
+d) 32 threads, ordem desc, job 10700214 com saida output2Arquitetura10700214.out
+real    32m57.977s
+user    0m0.054s
+sys     0m0.093s
+
+
+e)BASELINE - sequencial, 150 SRRs
+sbatch comandosSequenciais.srm 
+Submitted batch job 10699389
+Resultado: sucesso
+real    1096m52.784s =~ 18,26h
+user    1179m28.252s
+sys     46m6.929s
+finalizado
+Sun Nov 20 19:36:33 -03 2022
+
+
+2.1)Experimentos com 4 nós
+ATENÇÃO: Precisei TROCAR os módulos MPI para funcionar
+Os modulos nos scripts, tanto .srm quanto o .sh de compilação são:
+    module load sequana/current
+    module loads openmpi/gnu/ilp64/4.0.3.3
+ATENÇÃO 2: Aparentemente, os printfs não estão sendo escritos no arquivo de saída do job,
+mas os outputs dos comandos estão sendo escritos normalmente.
+compila com: compilarTeste1
+submete com: experimento01c.srm
+
+a) 4 threads, 4 nós, job 10702051, output output4nodes10702051.out
+Resultado: não obteve sucesso
+Mensagem de erro diz que teve que parar por limite de tempo, apesar de eu ter setado para mais de 3horas:
+slurmstepd: error: *** JOB 10702051 ON sdumont6076 CANCELLED AT 2022-11-22T05:20:30 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 10702051.0 ON sdumont6076 CANCELLED AT 2022-11-22T05:20:30 DUE TO TIME LIMIT ***
+srun: got SIGCONT
+srun: forcing job termination
+srun: error: sdumont6076: task 0: Terminated
+srun: error: sdumont6084: task 3: Terminated
+srun: error: sdumont6078: task 1: Terminated
+srun: error: sdumont6083: task 2: Terminated
+
+a.1)Repetir experimento com 4 nós
+
+b.1) 8 threads por nó, 4 nós, job 10702306, output output4nodes10702306.out
