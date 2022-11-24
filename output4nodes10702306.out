@@ -1,0 +1,1761 @@
+Loading SEQUANA Software environment
+no MPI, rank: 0, MPI_COMM_WORLD: 6308704, processors name: sdumont6074
+no MPI, rank: 1, MPI_COMM_WORLD: 6308704, processors name: sdumont6081
+no MPI, rank: 2, MPI_COMM_WORLD: 6308704, processors name: sdumont6082
+no MPI, rank: 3, MPI_COMM_WORLD: 6308704, processors name: sdumont6084
+numero de comandos = 6
+numero de amostras .sra = 150
+numero de comandos = 6
+numero de amostras .sra = 150
+numero de comandos = 6
+numero de amostras .sra = 150
+numero de comandos = 6
+numero de amostras .sra = 150
+current time inicial: 1669126535
+current time inicial: 1669126535
+current time inicial: 1669126535
+current time inicial: 1669126535
+valor do indice na fila de sample do rank 0, iteracao 0: 27
+valor do indice na fila de sample do rank 3, iteracao 0: 27
+valor do indice na fila de sample do rank 1, iteracao 0: 27
+valor do indice na fila de sample do rank 2, iteracao 0: 27
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Database 'SRR12570168.sra' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Database 'SRR12570166.sra' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Database 'SRR12570151.sra' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Database 'SRR12570141.sra' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Database 'SRR12570208.sra' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Database 'SRR12570206.sra' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Database 'SRR12570169.sra' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Database 'SRR12570162.sra' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Database 'SRR12570136.sra' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Database 'SRR12570209.sra' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Database 'SRR12570154.sra' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Database 'SRR12570155.sra' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Database 'SRR12570150.sra' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Database 'SRR12570157.sra' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Database 'SRR12570139.sra' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Database 'SRR12570156.sra' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Database 'SRR12570204.sra' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Database 'SRR12570149.sra' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Database 'SRR12570164.sra' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Database 'SRR12570207.sra' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Database 'SRR12570167.sra' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Database 'SRR12570163.sra' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Database 'SRR12570135.sra' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Database 'SRR12570153.sra' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Database 'SRR12570140.sra' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Database 'SRR12570165.sra' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Database 'SRR12570152.sra' metadata: md5 ok
+2022-11-22T14:15:35 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+status do Send Master local 1 = 0
+status do Send Master local 0 = 0
+status do Send Master local 0 = 0
+status do Send Master local 0 = 0
+2022-11-22T14:15:36 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T14:15:36 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T14:15:36 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T14:15:36 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T14:15:36 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T14:15:36 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T14:15:36 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T14:15:36 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T14:15:36 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T14:15:36 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T14:15:36 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T14:15:36 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T14:15:37 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T14:15:37 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T14:15:37 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T14:15:37 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T14:15:37 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+status Recv Master Global: 0, message de 2 recb.: 1.000000
+status do Send do Master Global = 0, enviando para 2 
+2022-11-22T14:15:38 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+de volta, rank 2: voltei
+
+2022-11-22T14:15:38 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T14:15:38 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T14:15:38 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T14:15:38 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T14:15:38 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T14:15:38 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T14:15:38 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T14:15:38 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T14:15:38 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+status Recv Master Global: 0, message de 3 recb.: 1.000000
+status do Send do Master Global = 0, enviando para 3 
+de volta, rank 3: voltei
+
+status Recv Master Global: 0, message de 0 recb.: 1.000000
+status do Send do Master Global = 0, enviando para 0 
+2022-11-22T14:15:40 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+de volta, rank 0: voltei
+
+2022-11-22T14:15:40 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T14:15:40 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T14:15:40 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T14:15:40 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T14:15:40 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T14:15:40 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T14:15:40 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T14:15:41 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T14:15:41 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+status Recv Master Global: 0, message de 1 recb.: 1.000000
+status do Send do Master Global = 0, enviando para 1 
+de volta, rank 1: voltei
+
+2022-11-22T14:15:41 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T14:15:41 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T14:15:41 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T14:15:41 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T14:15:41 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T14:15:41 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T14:15:41 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570164/SRR12570164.sra' contains only unaligned reads
+2022-11-22T14:15:41 vdb-validate.2.10.5 info: Database 'SRR12570164.sra' is consistent
+2022-11-22T14:15:42 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T14:15:42 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T14:15:42 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T14:15:42 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570150/SRR12570150.sra' contains only unaligned reads
+2022-11-22T14:15:42 vdb-validate.2.10.5 info: Database 'SRR12570150.sra' is consistent
+2022-11-22T14:15:42 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T14:15:43 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T14:15:43 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T14:15:43 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570163/SRR12570163.sra' contains only unaligned reads
+2022-11-22T14:15:43 vdb-validate.2.10.5 info: Database 'SRR12570163.sra' is consistent
+2022-11-22T14:15:43 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T14:15:43 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570140/SRR12570140.sra' contains only unaligned reads
+2022-11-22T14:15:43 vdb-validate.2.10.5 info: Database 'SRR12570140.sra' is consistent
+2022-11-22T14:15:49 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T14:15:50 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T14:15:50 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570155/SRR12570155.sra' contains only unaligned reads
+2022-11-22T14:15:50 vdb-validate.2.10.5 info: Database 'SRR12570155.sra' is consistent
+2022-11-22T14:16:16 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T14:16:26 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T14:16:29 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T14:16:31 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T14:16:31 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T14:16:40 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T14:16:40 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T14:16:40 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570165/SRR12570165.sra' contains only unaligned reads
+2022-11-22T14:16:41 vdb-validate.2.10.5 info: Database 'SRR12570165.sra' is consistent
+2022-11-22T14:16:42 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T14:16:43 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T14:16:45 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T14:16:46 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T14:16:47 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T14:16:48 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T14:16:56 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T14:16:58 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T14:16:58 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T14:16:58 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570166/SRR12570166.sra' contains only unaligned reads
+2022-11-22T14:16:58 vdb-validate.2.10.5 info: Database 'SRR12570166.sra' is consistent
+2022-11-22T14:16:58 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T14:16:58 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570156/SRR12570156.sra' contains only unaligned reads
+2022-11-22T14:16:58 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570136/SRR12570136.sra' contains only unaligned reads
+2022-11-22T14:16:58 vdb-validate.2.10.5 info: Database 'SRR12570156.sra' is consistent
+2022-11-22T14:16:58 vdb-validate.2.10.5 info: Database 'SRR12570136.sra' is consistent
+2022-11-22T14:17:02 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T14:17:06 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T14:17:16 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T14:17:19 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T14:17:22 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T14:17:22 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T14:17:25 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T14:17:26 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570209/SRR12570209.sra' contains only unaligned reads
+2022-11-22T14:17:26 vdb-validate.2.10.5 info: Database 'SRR12570209.sra' is consistent
+2022-11-22T14:17:27 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T14:17:32 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T14:17:32 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570206/SRR12570206.sra' contains only unaligned reads
+2022-11-22T14:17:32 vdb-validate.2.10.5 info: Database 'SRR12570206.sra' is consistent
+2022-11-22T14:17:34 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T14:17:38 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T14:17:39 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570169/SRR12570169.sra' contains only unaligned reads
+2022-11-22T14:17:39 vdb-validate.2.10.5 info: Database 'SRR12570169.sra' is consistent
+2022-11-22T14:17:41 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T14:17:41 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570151/SRR12570151.sra' contains only unaligned reads
+2022-11-22T14:17:41 vdb-validate.2.10.5 info: Database 'SRR12570151.sra' is consistent
+2022-11-22T14:17:50 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T14:17:51 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T14:17:56 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T14:17:57 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570157/SRR12570157.sra' contains only unaligned reads
+2022-11-22T14:17:57 vdb-validate.2.10.5 info: Database 'SRR12570157.sra' is consistent
+2022-11-22T14:18:00 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T14:18:03 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T14:18:09 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T14:18:09 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570208/SRR12570208.sra' contains only unaligned reads
+2022-11-22T14:18:09 vdb-validate.2.10.5 info: Database 'SRR12570208.sra' is consistent
+2022-11-22T14:18:11 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T14:18:11 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570152/SRR12570152.sra' contains only unaligned reads
+2022-11-22T14:18:11 vdb-validate.2.10.5 info: Database 'SRR12570152.sra' is consistent
+2022-11-22T14:18:17 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T14:18:17 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570167/SRR12570167.sra' contains only unaligned reads
+2022-11-22T14:18:17 vdb-validate.2.10.5 info: Database 'SRR12570167.sra' is consistent
+2022-11-22T14:18:20 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T14:18:20 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570168/SRR12570168.sra' contains only unaligned reads
+2022-11-22T14:18:21 vdb-validate.2.10.5 info: Database 'SRR12570168.sra' is consistent
+2022-11-22T14:18:38 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T14:18:47 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T14:18:48 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T14:18:54 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T14:18:56 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T14:18:59 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T14:18:59 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T14:19:00 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570162/SRR12570162.sra' contains only unaligned reads
+2022-11-22T14:19:01 vdb-validate.2.10.5 info: Database 'SRR12570162.sra' is consistent
+2022-11-22T14:19:10 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T14:19:10 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570154/SRR12570154.sra' contains only unaligned reads
+2022-11-22T14:19:10 vdb-validate.2.10.5 info: Database 'SRR12570154.sra' is consistent
+2022-11-22T14:19:20 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T14:19:20 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570141/SRR12570141.sra' contains only unaligned reads
+2022-11-22T14:19:20 vdb-validate.2.10.5 info: Database 'SRR12570141.sra' is consistent
+2022-11-22T14:19:23 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T14:19:23 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T14:19:24 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570204/SRR12570204.sra' contains only unaligned reads
+2022-11-22T14:19:24 vdb-validate.2.10.5 info: Database 'SRR12570204.sra' is consistent
+2022-11-22T14:19:27 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T14:19:28 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570153/SRR12570153.sra' contains only unaligned reads
+2022-11-22T14:19:28 vdb-validate.2.10.5 info: Database 'SRR12570153.sra' is consistent
+2022-11-22T14:19:31 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T14:19:31 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570139/SRR12570139.sra' contains only unaligned reads
+2022-11-22T14:19:32 vdb-validate.2.10.5 info: Database 'SRR12570139.sra' is consistent
+2022-11-22T14:19:52 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T14:19:52 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T14:19:52 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570135/SRR12570135.sra' contains only unaligned reads
+2022-11-22T14:19:53 vdb-validate.2.10.5 info: Database 'SRR12570135.sra' is consistent
+spots read      : 17,449,788
+reads read      : 34,899,576
+reads written   : 34,899,576
+2022-11-22T14:20:09 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T14:20:18 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T14:20:19 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570149/SRR12570149.sra' contains only unaligned reads
+2022-11-22T14:20:19 vdb-validate.2.10.5 info: Database 'SRR12570149.sra' is consistent
+2022-11-22T14:20:47 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T14:20:48 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570207/SRR12570207.sra' contains only unaligned reads
+2022-11-22T14:20:48 vdb-validate.2.10.5 info: Database 'SRR12570207.sra' is consistent
+spots read      : 18,490,580
+reads read      : 36,981,160
+reads written   : 36,981,160
+spots read      : 17,639,646
+reads read      : 35,279,292
+reads written   : 35,279,292
+spots read      : 16,740,776
+reads read      : 33,481,552
+reads written   : 33,481,552
+spots read      : 18,942,607
+reads read      : 37,885,214
+reads written   : 37,885,214
+spots read      : 18,279,257
+reads read      : 36,558,514
+reads written   : 36,558,514
+spots read      : 18,216,579
+reads read      : 36,433,158
+reads written   : 36,433,158
+spots read      : 16,681,618
+reads read      : 33,363,236
+reads written   : 33,363,236
+spots read      : 17,796,242
+reads read      : 35,592,484
+reads written   : 35,592,484
+spots read      : 17,342,735
+reads read      : 34,685,470
+reads written   : 34,685,470
+spots read      : 18,543,760
+reads read      : 37,087,520
+reads written   : 37,087,520
+spots read      : 17,483,506
+reads read      : 34,967,012
+reads written   : 34,967,012
+spots read      : 17,852,800
+reads read      : 35,705,600
+reads written   : 35,705,600
+spots read      : 16,546,163
+reads read      : 33,092,326
+reads written   : 33,092,326
+spots read      : 15,834,366
+reads read      : 31,668,732
+reads written   : 31,668,732
+spots read      : 18,091,794
+reads read      : 36,183,588
+reads written   : 36,183,588
+spots read      : 17,121,795
+reads read      : 34,243,590
+reads written   : 34,243,590
+spots read      : 16,502,422
+reads read      : 33,004,844
+reads written   : 33,004,844
+spots read      : 18,516,397
+reads read      : 37,032,794
+reads written   : 37,032,794
+spots read      : 17,619,968
+reads read      : 35,239,936
+reads written   : 35,239,936
+spots read      : 18,843,159
+reads read      : 37,686,318
+reads written   : 37,686,318
+spots read      : 18,210,850
+reads read      : 36,421,700
+reads written   : 36,421,700
+spots read      : 16,313,151
+reads read      : 32,626,302
+reads written   : 32,626,302
+spots read      : 16,391,229
+reads read      : 32,782,458
+reads written   : 32,782,458
+spots read      : 17,072,115
+reads read      : 34,144,230
+reads written   : 34,144,230
+spots read      : 18,554,262
+reads read      : 37,108,524
+reads written   : 37,108,524
+spots read      : 17,294,089
+reads read      : 34,588,178
+reads written   : 34,588,178
+termino de thread 7, rank 0, duration:  3509.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570141/SRR12570141.sra
+2022-11-22T15:14:04 vdb-validate.2.10.5 info: Database 'SRR12570171.sra' metadata: md5 ok
+2022-11-22T15:14:04 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T15:14:06 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T15:14:10 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T15:14:13 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T15:14:15 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T15:14:15 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570171/SRR12570171.sra' contains only unaligned reads
+2022-11-22T15:14:15 vdb-validate.2.10.5 info: Database 'SRR12570171.sra' is consistent
+spots read      : 15,313,970
+reads read      : 30,627,940
+reads written   : 30,627,940
+termino de thread 6, rank 0, duration:  3727.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570164/SRR12570164.sra
+2022-11-22T15:17:42 vdb-validate.2.10.5 info: Database 'SRR12570123.sra' metadata: md5 ok
+2022-11-22T15:17:42 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T15:17:43 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T15:17:46 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T15:17:49 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T15:17:51 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T15:17:51 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570123/SRR12570123.sra' contains only unaligned reads
+2022-11-22T15:17:51 vdb-validate.2.10.5 info: Database 'SRR12570123.sra' is consistent
+spots read      : 14,973,778
+reads read      : 29,947,556
+reads written   : 29,947,556
+termino de thread 4, rank 0, duration:  3886.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570149/SRR12570149.sra
+2022-11-22T15:20:21 vdb-validate.2.10.5 info: Database 'SRR12570133.sra' metadata: md5 ok
+2022-11-22T15:20:21 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T15:20:22 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T15:20:26 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T15:20:29 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T15:20:31 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T15:20:31 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570133/SRR12570133.sra' contains only unaligned reads
+2022-11-22T15:20:31 vdb-validate.2.10.5 info: Database 'SRR12570133.sra' is consistent
+termino de thread 7, rank 3, duration:  3954.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570153/SRR12570153.sra
+2022-11-22T15:21:30 vdb-validate.2.10.5 info: Database 'SRR12570093.sra' metadata: md5 ok
+2022-11-22T15:21:30 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T15:21:31 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T15:21:35 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T15:21:39 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T15:21:41 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T15:21:41 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570093/SRR12570093.sra' contains only unaligned reads
+2022-11-22T15:21:41 vdb-validate.2.10.5 info: Database 'SRR12570093.sra' is consistent
+termino de thread 5, rank 0, duration:  3976.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570206/SRR12570206.sra
+2022-11-22T15:21:52 vdb-validate.2.10.5 info: Database 'SRR12570124.sra' metadata: md5 ok
+2022-11-22T15:21:52 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T15:21:53 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T15:21:57 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T15:22:01 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T15:22:03 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T15:22:03 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570124/SRR12570124.sra' contains only unaligned reads
+2022-11-22T15:22:03 vdb-validate.2.10.5 info: Database 'SRR12570124.sra' is consistent
+spots read      : 16,054,325
+reads read      : 32,108,650
+reads written   : 32,108,650
+termino de thread 6, rank 1, duration:  4005.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570140/SRR12570140.sra
+2022-11-22T15:22:21 vdb-validate.2.10.5 info: Database 'SRR12570189.sra' metadata: md5 ok
+2022-11-22T15:22:21 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T15:22:23 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T15:22:27 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T15:22:31 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T15:22:33 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T15:22:33 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570189/SRR12570189.sra' contains only unaligned reads
+2022-11-22T15:22:33 vdb-validate.2.10.5 info: Database 'SRR12570189.sra' is consistent
+termino de thread 6, rank 2, duration:  4019.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570139/SRR12570139.sra
+2022-11-22T15:22:36 vdb-validate.2.10.5 info: Database 'SRR12570185.sra' metadata: md5 ok
+2022-11-22T15:22:36 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T15:22:38 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+termino de thread 7, rank 2, duration:  4026.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570204/SRR12570204.sra
+2022-11-22T15:22:41 vdb-validate.2.10.5 info: Database 'SRR12570092.sra' metadata: md5 ok
+2022-11-22T15:22:41 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T15:22:42 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T15:22:42 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T15:22:46 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T15:22:46 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T15:22:48 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T15:22:48 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570185/SRR12570185.sra' contains only unaligned reads
+2022-11-22T15:22:48 vdb-validate.2.10.5 info: Database 'SRR12570185.sra' is consistent
+2022-11-22T15:22:49 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T15:22:51 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T15:22:51 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570092/SRR12570092.sra' contains only unaligned reads
+2022-11-22T15:22:51 vdb-validate.2.10.5 info: Database 'SRR12570092.sra' is consistent
+spots read      : 14,725,978
+reads read      : 29,451,956
+reads written   : 29,451,956
+spots read      : 15,180,878
+reads read      : 30,361,756
+reads written   : 30,361,756
+termino de thread 7, rank 1, duration:  4097.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570135/SRR12570135.sra
+2022-11-22T15:23:53 vdb-validate.2.10.5 info: Database 'SRR12570187.sra' metadata: md5 ok
+2022-11-22T15:23:53 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T15:23:54 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T15:23:59 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T15:24:03 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T15:24:05 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T15:24:05 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570187/SRR12570187.sra' contains only unaligned reads
+2022-11-22T15:24:05 vdb-validate.2.10.5 info: Database 'SRR12570187.sra' is consistent
+spots read      : 15,347,966
+reads read      : 30,695,932
+reads written   : 30,695,932
+termino de thread 3, rank 0, duration:  4126.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570166/SRR12570166.sra
+2022-11-22T15:24:22 vdb-validate.2.10.5 info: Database 'SRR12570100.sra' metadata: md5 ok
+2022-11-22T15:24:22 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T15:24:22 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T15:24:26 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T15:24:29 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T15:24:31 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T15:24:31 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570100/SRR12570100.sra' contains only unaligned reads
+2022-11-22T15:24:31 vdb-validate.2.10.5 info: Database 'SRR12570100.sra' is consistent
+termino de thread 6, rank 3, duration:  4139.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570136/SRR12570136.sra
+2022-11-22T15:24:35 vdb-validate.2.10.5 info: Database 'SRR12570105.sra' metadata: md5 ok
+2022-11-22T15:24:35 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T15:24:35 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T15:24:39 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T15:24:43 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T15:24:45 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T15:24:45 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570105/SRR12570105.sra' contains only unaligned reads
+2022-11-22T15:24:45 vdb-validate.2.10.5 info: Database 'SRR12570105.sra' is consistent
+spots read      : 14,810,609
+reads read      : 29,621,218
+reads written   : 29,621,218
+spots read      : 15,354,485
+reads read      : 30,708,970
+reads written   : 30,708,970
+spots read      : 15,176,296
+reads read      : 30,352,592
+reads written   : 30,352,592
+spots read      : 15,723,066
+reads read      : 31,446,132
+reads written   : 31,446,132
+spots read      : 14,740,250
+reads read      : 29,480,500
+reads written   : 29,480,500
+termino de thread 5, rank 3, duration:  4289.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570162/SRR12570162.sra
+2022-11-22T15:27:04 vdb-validate.2.10.5 info: Database 'SRR12570188.sra' metadata: md5 ok
+2022-11-22T15:27:05 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T15:27:05 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T15:27:10 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T15:27:13 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T15:27:15 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T15:27:15 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570188/SRR12570188.sra' contains only unaligned reads
+2022-11-22T15:27:15 vdb-validate.2.10.5 info: Database 'SRR12570188.sra' is consistent
+termino de thread 2, rank 0, duration:  4301.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570168/SRR12570168.sra
+2022-11-22T15:27:17 vdb-validate.2.10.5 info: Database 'SRR12570205.sra' metadata: md5 ok
+2022-11-22T15:27:17 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T15:27:18 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T15:27:21 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T15:27:24 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T15:27:26 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T15:27:26 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570205/SRR12570205.sra' contains only unaligned reads
+2022-11-22T15:27:26 vdb-validate.2.10.5 info: Database 'SRR12570205.sra' is consistent
+termino de thread 5, rank 2, duration:  4313.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570154/SRR12570154.sra
+2022-11-22T15:27:29 vdb-validate.2.10.5 info: Database 'SRR12570171.sra' metadata: md5 ok
+2022-11-22T15:27:29 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T15:27:31 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T15:27:35 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T15:27:39 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T15:27:41 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T15:27:41 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570171/SRR12570171.sra' contains only unaligned reads
+2022-11-22T15:27:41 vdb-validate.2.10.5 info: Database 'SRR12570171.sra' is consistent
+2022-11-22T15:27:42 fasterq-dump.2.10.5 err: fasterq-dump.c fastdump_csra() checking ouput-file '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570171/SRR12570171.sra.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)
+fasterq-dump (PID 8031) quit with error code 3
+error in, thread 5, rank 2 /scratch/app/sratoolkit/2.10.5/bin/fasterq-dump /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570171/SRR12570171.sra -m 256000MB -e 24 -3 -S --skip-technical -O /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570171  -t /tmp
+gzip: /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570171/SRR12570171.sra_1.fastq.gz already exists;	not overwritten
+error in, thread 5, rank 2 gzip /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570171/SRR12570171.sra_1.fastq
+termino de thread 5, rank 1, duration:  4343.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570163/SRR12570163.sra
+2022-11-22T15:27:59 vdb-validate.2.10.5 info: Database 'SRR12570114.sra' metadata: md5 ok
+2022-11-22T15:27:59 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T15:28:01 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T15:28:05 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T15:28:09 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T15:28:11 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T15:28:11 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570114/SRR12570114.sra' contains only unaligned reads
+2022-11-22T15:28:11 vdb-validate.2.10.5 info: Database 'SRR12570114.sra' is consistent
+spots read      : 15,360,080
+reads read      : 30,720,160
+reads written   : 30,720,160
+spots read      : 15,718,139
+reads read      : 31,436,278
+reads written   : 31,436,278
+spots read      : 15,254,515
+reads read      : 30,509,030
+reads written   : 30,509,030
+termino de thread 4, rank 2, duration:  4462.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570169/SRR12570169.sra
+2022-11-22T15:29:57 vdb-validate.2.10.5 info: Database 'SRR12570123.sra' metadata: md5 ok
+2022-11-22T15:29:57 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T15:29:58 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T15:30:02 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T15:30:05 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T15:30:07 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T15:30:08 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570123/SRR12570123.sra' contains only unaligned reads
+2022-11-22T15:30:08 vdb-validate.2.10.5 info: Database 'SRR12570123.sra' is consistent
+2022-11-22T15:30:09 fasterq-dump.2.10.5 err: fasterq-dump.c fastdump_csra() checking ouput-file '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570123/SRR12570123.sra.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)
+fasterq-dump (PID 12505) quit with error code 3
+error in, thread 4, rank 2 /scratch/app/sratoolkit/2.10.5/bin/fasterq-dump /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570123/SRR12570123.sra -m 256000MB -e 24 -3 -S --skip-technical -O /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570123  -t /tmp
+gzip: /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570123/SRR12570123.sra_1.fastq.gz already exists;	not overwritten
+error in, thread 4, rank 2 gzip /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570123/SRR12570123.sra_1.fastq
+termino de thread 4, rank 3, duration:  4481.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570155/SRR12570155.sra
+2022-11-22T15:30:17 vdb-validate.2.10.5 info: Database 'SRR12570178.sra' metadata: md5 ok
+2022-11-22T15:30:17 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T15:30:19 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T15:30:23 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T15:30:27 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T15:30:29 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T15:30:29 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570178/SRR12570178.sra' contains only unaligned reads
+2022-11-22T15:30:29 vdb-validate.2.10.5 info: Database 'SRR12570178.sra' is consistent
+termino de thread 2, rank 2, duration:  4505.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570150/SRR12570150.sra
+2022-11-22T15:30:40 vdb-validate.2.10.5 info: Database 'SRR12570133.sra' metadata: md5 ok
+2022-11-22T15:30:40 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T15:30:41 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T15:30:46 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T15:30:50 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T15:30:52 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T15:30:52 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570133/SRR12570133.sra' contains only unaligned reads
+2022-11-22T15:30:52 vdb-validate.2.10.5 info: Database 'SRR12570133.sra' is consistent
+2022-11-22T15:30:53 fasterq-dump.2.10.5 err: fasterq-dump.c fastdump_csra() checking ouput-file '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570133/SRR12570133.sra.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)
+fasterq-dump (PID 14086) quit with error code 3
+error in, thread 2, rank 2 /scratch/app/sratoolkit/2.10.5/bin/fasterq-dump /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570133/SRR12570133.sra -m 256000MB -e 24 -3 -S --skip-technical -O /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570133  -t /tmp
+gzip: /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570133/SRR12570133.sra_1.fastq.gz already exists;	not overwritten
+error in, thread 2, rank 2 gzip /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570133/SRR12570133.sra_1.fastq
+termino de thread 3, rank 2, duration:  4523.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570209/SRR12570209.sra
+2022-11-22T15:30:59 vdb-validate.2.10.5 info: Database 'SRR12570124.sra' metadata: md5 ok
+2022-11-22T15:30:59 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T15:31:00 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T15:31:04 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T15:31:07 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T15:31:09 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T15:31:09 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570124/SRR12570124.sra' contains only unaligned reads
+2022-11-22T15:31:09 vdb-validate.2.10.5 info: Database 'SRR12570124.sra' is consistent
+2022-11-22T15:31:11 fasterq-dump.2.10.5 err: fasterq-dump.c fastdump_csra() checking ouput-file '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570124/SRR12570124.sra.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)
+fasterq-dump (PID 14732) quit with error code 3
+error in, thread 3, rank 2 /scratch/app/sratoolkit/2.10.5/bin/fasterq-dump /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570124/SRR12570124.sra -m 256000MB -e 24 -3 -S --skip-technical -O /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570124  -t /tmp
+gzip: /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570124/SRR12570124.sra_1.fastq.gz already exists;	not overwritten
+error in, thread 3, rank 2 gzip /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570124/SRR12570124.sra_1.fastq
+termino de thread 4, rank 1, duration:  4562.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570207/SRR12570207.sra
+2022-11-22T15:31:38 vdb-validate.2.10.5 info: Database 'SRR12570115.sra' metadata: md5 ok
+2022-11-22T15:31:38 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T15:31:40 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T15:31:44 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T15:31:48 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T15:31:50 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T15:31:50 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570115/SRR12570115.sra' contains only unaligned reads
+2022-11-22T15:31:50 vdb-validate.2.10.5 info: Database 'SRR12570115.sra' is consistent
+spots read      : 15,369,528
+reads read      : 30,739,056
+reads written   : 30,739,056
+termino de thread 3, rank 1, duration:  4612.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570208/SRR12570208.sra
+2022-11-22T15:32:28 vdb-validate.2.10.5 info: Database 'SRR12570173.sra' metadata: md5 ok
+2022-11-22T15:32:28 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T15:32:38 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+termino de thread 3, rank 3, duration:  4627.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570156/SRR12570156.sra
+2022-11-22T15:32:42 vdb-validate.2.10.5 info: Database 'SRR12570179.sra' metadata: md5 ok
+2022-11-22T15:32:42 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+gzip: /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570171/SRR12570171.sra_2.fastq.gz already exists;	not overwritten
+error in, thread 7, rank 0 gzip /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570171/SRR12570171.sra_2.fastq
+termino de thread 7, rank 0, duration:  4628.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570171/SRR12570171.sra
+2022-11-22T15:32:43 vdb-validate.2.10.5 info: Database 'SRR12570129.sra' metadata: md5 ok
+2022-11-22T15:32:43 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T15:32:44 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T15:32:45 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T15:32:47 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T15:32:49 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T15:32:50 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T15:32:51 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T15:32:51 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570129/SRR12570129.sra' contains only unaligned reads
+2022-11-22T15:32:51 vdb-validate.2.10.5 info: Database 'SRR12570129.sra' is consistent
+2022-11-22T15:32:52 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T15:32:55 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T15:32:55 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570179/SRR12570179.sra' contains only unaligned reads
+2022-11-22T15:32:55 vdb-validate.2.10.5 info: Database 'SRR12570179.sra' is consistent
+2022-11-22T15:32:55 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T15:33:01 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+termino de thread 1, rank 2, duration:  4648.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570165/SRR12570165.sra
+2022-11-22T15:33:03 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T15:33:03 vdb-validate.2.10.5 info: Database 'SRR12570100.sra' metadata: md5 ok
+2022-11-22T15:33:03 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570173/SRR12570173.sra' contains only unaligned reads
+2022-11-22T15:33:04 vdb-validate.2.10.5 info: Database 'SRR12570173.sra' is consistent
+2022-11-22T15:33:04 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T15:33:04 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T15:33:09 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T15:33:12 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T15:33:14 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T15:33:15 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570100/SRR12570100.sra' contains only unaligned reads
+2022-11-22T15:33:15 vdb-validate.2.10.5 info: Database 'SRR12570100.sra' is consistent
+2022-11-22T15:33:16 fasterq-dump.2.10.5 err: fasterq-dump.c fastdump_csra() checking ouput-file '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570100/SRR12570100.sra.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)
+fasterq-dump (PID 18597) quit with error code 3
+error in, thread 1, rank 2 /scratch/app/sratoolkit/2.10.5/bin/fasterq-dump /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570100/SRR12570100.sra -m 256000MB -e 24 -3 -S --skip-technical -O /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570100  -t /tmp
+gzip: /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570100/SRR12570100.sra_1.fastq.gz already exists;	not overwritten
+error in, thread 1, rank 2 gzip /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570100/SRR12570100.sra_1.fastq
+termino de thread 2, rank 1, duration:  4673.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570151/SRR12570151.sra
+2022-11-22T15:33:28 vdb-validate.2.10.5 info: Database 'SRR12570125.sra' metadata: md5 ok
+2022-11-22T15:33:28 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T15:33:32 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T15:33:51 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T15:34:06 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T15:34:13 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T15:34:13 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570125/SRR12570125.sra' contains only unaligned reads
+spots read      : 14,061,002
+reads read      : 28,122,004
+reads written   : 28,122,004
+2022-11-22T15:34:13 vdb-validate.2.10.5 info: Database 'SRR12570125.sra' is consistent
+termino de thread 2, rank 3, duration:  4720.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570157/SRR12570157.sra
+2022-11-22T15:34:15 vdb-validate.2.10.5 info: Database 'SRR12570116.sra' metadata: md5 ok
+2022-11-22T15:34:15 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+spots read      : 15,465,408
+reads read      : 30,930,816
+reads written   : 30,930,816
+2022-11-22T15:34:18 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T15:34:23 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T15:34:27 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T15:34:29 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T15:34:29 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570116/SRR12570116.sra' contains only unaligned reads
+2022-11-22T15:34:29 vdb-validate.2.10.5 info: Database 'SRR12570116.sra' is consistent
+spots read      : 15,632,107
+reads read      : 31,264,214
+reads written   : 31,264,214
+gzip: /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570123/SRR12570123.sra_2.fastq.gz already exists;	not overwritten
+error in, thread 6, rank 0 gzip /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570123/SRR12570123.sra_2.fastq
+termino de thread 6, rank 0, duration:  4738.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570123/SRR12570123.sra
+2022-11-22T15:34:34 vdb-validate.2.10.5 info: Database 'SRR12570181.sra' metadata: md5 ok
+2022-11-22T15:34:34 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T15:34:35 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T15:34:39 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T15:34:42 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T15:34:43 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T15:34:43 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570181/SRR12570181.sra' contains only unaligned reads
+2022-11-22T15:34:43 vdb-validate.2.10.5 info: Database 'SRR12570181.sra' is consistent
+termino de thread 1, rank 3, duration:  4749.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570152/SRR12570152.sra
+2022-11-22T15:34:45 vdb-validate.2.10.5 info: Database 'SRR12570203.sra' metadata: md5 ok
+2022-11-22T15:34:45 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T15:34:54 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T15:35:13 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T15:35:28 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+spots read      : 15,565,915
+reads read      : 31,131,830
+reads written   : 31,131,830
+2022-11-22T15:35:36 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T15:35:36 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570203/SRR12570203.sra' contains only unaligned reads
+2022-11-22T15:35:36 vdb-validate.2.10.5 info: Database 'SRR12570203.sra' is consistent
+spots read      : 15,353,429
+reads read      : 30,706,858
+reads written   : 30,706,858
+spots read      : 14,465,514
+reads read      : 28,931,028
+reads written   : 28,931,028
+spots read      : 15,626,325
+reads read      : 31,252,650
+reads written   : 31,252,650
+spots read      : 15,546,270
+reads read      : 31,092,540
+reads written   : 31,092,540
+gzip: /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570133/SRR12570133.sra_2.fastq.gz already exists;	not overwritten
+error in, thread 4, rank 0 gzip /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570133/SRR12570133.sra_2.fastq
+termino de thread 4, rank 0, duration:  4937.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570133/SRR12570133.sra
+2022-11-22T15:37:52 vdb-validate.2.10.5 info: Database 'SRR12570212.sra' metadata: md5 ok
+2022-11-22T15:37:53 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T15:37:53 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T15:37:57 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+gzip: /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570124/SRR12570124.sra_2.fastq.gz already exists;	not overwritten
+error in, thread 5, rank 0 gzip /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570124/SRR12570124.sra_2.fastq
+termino de thread 5, rank 0, duration:  4942.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570124/SRR12570124.sra
+2022-11-22T15:37:58 vdb-validate.2.10.5 info: Database 'SRR12570182.sra' metadata: md5 ok
+2022-11-22T15:37:58 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T15:37:59 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T15:38:00 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T15:38:01 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T15:38:01 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570212/SRR12570212.sra' contains only unaligned reads
+2022-11-22T15:38:01 vdb-validate.2.10.5 info: Database 'SRR12570212.sra' is consistent
+2022-11-22T15:38:03 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T15:38:16 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+termino de thread 1, rank 1, duration:  4964.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570167/SRR12570167.sra
+2022-11-22T15:38:20 vdb-validate.2.10.5 info: Database 'SRR12570134.sra' metadata: md5 ok
+2022-11-22T15:38:20 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T15:38:20 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T15:38:24 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T15:38:24 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570182/SRR12570182.sra' contains only unaligned reads
+2022-11-22T15:38:24 vdb-validate.2.10.5 info: Database 'SRR12570182.sra' is consistent
+2022-11-22T15:38:25 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T15:38:29 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T15:38:31 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T15:38:31 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570134/SRR12570134.sra' contains only unaligned reads
+2022-11-22T15:38:31 vdb-validate.2.10.5 info: Database 'SRR12570134.sra' is consistent
+spots read      : 16,141,014
+reads read      : 32,282,028
+reads written   : 32,282,028
+spots read      : 14,202,675
+reads read      : 28,405,350
+reads written   : 28,405,350
+spots read      : 14,448,717
+reads read      : 28,897,434
+reads written   : 28,897,434
+gzip: /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570100/SRR12570100.sra_2.fastq.gz already exists;	not overwritten
+error in, thread 3, rank 0 gzip /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570100/SRR12570100.sra_2.fastq
+termino de thread 3, rank 0, duration:  5169.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570100/SRR12570100.sra
+2022-11-22T15:41:44 vdb-validate.2.10.5 info: Database 'SRR12570201.sra' metadata: md5 ok
+2022-11-22T15:41:44 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T15:41:46 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T15:41:50 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T15:41:53 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T15:41:55 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T15:41:55 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570201/SRR12570201.sra' contains only unaligned reads
+2022-11-22T15:41:55 vdb-validate.2.10.5 info: Database 'SRR12570201.sra' is consistent
+spots read      : 15,156,408
+reads read      : 30,312,816
+reads written   : 30,312,816
+mv: cannot stat ‘/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570171/SRR12570171.sra_1.fastq.gz’: No such file or directory
+error in, thread 5, rank 2 mv /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570171/SRR12570171.sra_1.fastq.gz SRR12570171_S1_L001_R1_001.fastq.gz
+mv: cannot stat ‘/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570171/SRR12570171.sra_2.fastq.gz’: No such file or directory
+error in, thread 5, rank 2 mv /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570171/SRR12570171.sra_2.fastq.gz SRR12570171_S1_L001_R2_001.fastq.gz
+termino de thread 5, rank 2, duration:  6847.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570171/SRR12570171.sra
+2022-11-22T16:09:42 vdb-validate.2.10.5 info: Database 'SRR12570121.sra' metadata: md5 ok
+2022-11-22T16:09:42 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T16:09:44 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T16:09:48 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T16:09:51 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T16:09:53 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T16:09:53 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570121/SRR12570121.sra' contains only unaligned reads
+2022-11-22T16:09:53 vdb-validate.2.10.5 info: Database 'SRR12570121.sra' is consistent
+spots read      : 14,142,006
+reads read      : 28,284,012
+reads written   : 28,284,012
+mv: cannot stat ‘/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570123/SRR12570123.sra_1.fastq.gz’: No such file or directory
+error in, thread 4, rank 2 mv /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570123/SRR12570123.sra_1.fastq.gz SRR12570123_S1_L001_R1_001.fastq.gz
+mv: cannot stat ‘/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570123/SRR12570123.sra_2.fastq.gz’: No such file or directory
+error in, thread 4, rank 2 mv /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570123/SRR12570123.sra_2.fastq.gz SRR12570123_S1_L001_R2_001.fastq.gz
+termino de thread 4, rank 2, duration:  7109.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570123/SRR12570123.sra
+2022-11-22T16:14:05 vdb-validate.2.10.5 info: Database 'SRR12570219.sra' metadata: md5 ok
+2022-11-22T16:14:05 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T16:14:07 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T16:14:11 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T16:14:14 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T16:14:16 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T16:14:16 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570219/SRR12570219.sra' contains only unaligned reads
+2022-11-22T16:14:16 vdb-validate.2.10.5 info: Database 'SRR12570219.sra' is consistent
+spots read      : 13,962,965
+reads read      : 27,925,930
+reads written   : 27,925,930
+mv: cannot stat ‘/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570133/SRR12570133.sra_1.fastq.gz’: No such file or directory
+error in, thread 2, rank 2 mv /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570133/SRR12570133.sra_1.fastq.gz SRR12570133_S1_L001_R1_001.fastq.gz
+mv: cannot stat ‘/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570133/SRR12570133.sra_2.fastq.gz’: No such file or directory
+error in, thread 2, rank 2 mv /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570133/SRR12570133.sra_2.fastq.gz SRR12570133_S1_L001_R2_001.fastq.gz
+termino de thread 2, rank 2, duration:  7250.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570133/SRR12570133.sra
+2022-11-22T16:16:26 vdb-validate.2.10.5 info: Database 'SRR12570202.sra' metadata: md5 ok
+2022-11-22T16:16:26 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T16:16:27 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T16:16:31 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T16:16:35 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+mv: cannot stat ‘/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570124/SRR12570124.sra_1.fastq.gz’: No such file or directory
+error in, thread 3, rank 2 mv /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570124/SRR12570124.sra_1.fastq.gz SRR12570124_S1_L001_R1_001.fastq.gz
+mv: cannot stat ‘/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570124/SRR12570124.sra_2.fastq.gz’: No such file or directory
+error in, thread 3, rank 2 mv /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570124/SRR12570124.sra_2.fastq.gz SRR12570124_S1_L001_R2_001.fastq.gz
+termino de thread 3, rank 2, duration:  7260.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570124/SRR12570124.sra
+2022-11-22T16:16:36 vdb-validate.2.10.5 info: Database 'SRR12570233.sra' metadata: md5 ok
+2022-11-22T16:16:36 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T16:16:36 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T16:16:36 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570202/SRR12570202.sra' contains only unaligned reads
+2022-11-22T16:16:37 vdb-validate.2.10.5 info: Database 'SRR12570202.sra' is consistent
+2022-11-22T16:16:37 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T16:16:51 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T16:17:05 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T16:17:13 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T16:17:13 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570233/SRR12570233.sra' contains only unaligned reads
+2022-11-22T16:17:13 vdb-validate.2.10.5 info: Database 'SRR12570233.sra' is consistent
+spots read      : 14,339,749
+reads read      : 28,679,498
+reads written   : 28,679,498
+spots read      : 14,011,334
+reads read      : 28,022,668
+reads written   : 28,022,668
+mv: cannot stat ‘/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570100/SRR12570100.sra_1.fastq.gz’: No such file or directory
+error in, thread 1, rank 2 mv /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570100/SRR12570100.sra_1.fastq.gz SRR12570100_S1_L001_R1_001.fastq.gz
+mv: cannot stat ‘/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570100/SRR12570100.sra_2.fastq.gz’: No such file or directory
+error in, thread 1, rank 2 mv /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570100/SRR12570100.sra_2.fastq.gz SRR12570100_S1_L001_R2_001.fastq.gz
+termino de thread 1, rank 2, duration:  7485.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570100/SRR12570100.sra
+2022-11-22T16:20:20 vdb-validate.2.10.5 info: Database 'SRR12570183.sra' metadata: md5 ok
+2022-11-22T16:20:20 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T16:20:22 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T16:20:26 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T16:20:29 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T16:20:31 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T16:20:31 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570183/SRR12570183.sra' contains only unaligned reads
+2022-11-22T16:20:31 vdb-validate.2.10.5 info: Database 'SRR12570183.sra' is consistent
+termino de thread 7, rank 0, duration:  7573.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570129/SRR12570129.sra
+2022-11-22T16:21:48 vdb-validate.2.10.5 info: Database 'SRR12570112.sra' metadata: md5 ok
+2022-11-22T16:21:48 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T16:21:49 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T16:21:52 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T16:21:54 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T16:21:56 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T16:21:56 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570112/SRR12570112.sra' contains only unaligned reads
+2022-11-22T16:21:56 vdb-validate.2.10.5 info: Database 'SRR12570112.sra' is consistent
+spots read      : 14,667,197
+reads read      : 29,334,394
+reads written   : 29,334,394
+termino de thread 7, rank 3, duration:  7603.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570093/SRR12570093.sra
+2022-11-22T16:22:19 vdb-validate.2.10.5 info: Database 'SRR12570101.sra' metadata: md5 ok
+2022-11-22T16:22:19 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T16:22:20 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T16:22:23 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T16:22:27 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T16:22:28 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T16:22:28 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570101/SRR12570101.sra' contains only unaligned reads
+2022-11-22T16:22:29 vdb-validate.2.10.5 info: Database 'SRR12570101.sra' is consistent
+termino de thread 7, rank 2, duration:  7651.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570092/SRR12570092.sra
+2022-11-22T16:23:06 vdb-validate.2.10.5 info: Database 'SRR12570226.sra' metadata: md5 ok
+2022-11-22T16:23:06 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+spots read      : 12,295,341
+reads read      : 24,590,682
+reads written   : 24,590,682
+2022-11-22T16:23:08 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T16:23:12 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T16:23:15 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T16:23:16 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T16:23:16 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570226/SRR12570226.sra' contains only unaligned reads
+2022-11-22T16:23:16 vdb-validate.2.10.5 info: Database 'SRR12570226.sra' is consistent
+termino de thread 6, rank 0, duration:  7694.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570181/SRR12570181.sra
+2022-11-22T16:23:49 vdb-validate.2.10.5 info: Database 'SRR12570196.sra' metadata: md5 ok
+2022-11-22T16:23:49 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T16:23:50 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+spots read      : 13,289,846
+reads read      : 26,579,692
+reads written   : 26,579,692
+2022-11-22T16:23:53 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T16:23:55 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T16:23:57 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T16:23:57 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570196/SRR12570196.sra' contains only unaligned reads
+2022-11-22T16:23:57 vdb-validate.2.10.5 info: Database 'SRR12570196.sra' is consistent
+termino de thread 2, rank 0, duration:  7709.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570205/SRR12570205.sra
+2022-11-22T16:24:05 vdb-validate.2.10.5 info: Database 'SRR12570092.sra' metadata: md5 ok
+2022-11-22T16:24:05 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T16:24:08 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+termino de thread 6, rank 1, duration:  7724.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570189/SRR12570189.sra
+2022-11-22T16:24:19 vdb-validate.2.10.5 info: Database 'SRR12570131.sra' metadata: md5 ok
+2022-11-22T16:24:19 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T16:24:21 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T16:24:24 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T16:24:25 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T16:24:28 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T16:24:29 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T16:24:30 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570131/SRR12570131.sra' contains only unaligned reads
+2022-11-22T16:24:30 vdb-validate.2.10.5 info: Database 'SRR12570131.sra' is consistent
+termino de thread 7, rank 1, duration:  7740.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570187/SRR12570187.sra
+2022-11-22T16:24:35 vdb-validate.2.10.5 info: Database 'SRR12570130.sra' metadata: md5 ok
+2022-11-22T16:24:35 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T16:24:37 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T16:24:39 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+spots read      : 13,611,689
+reads read      : 27,223,378
+reads written   : 27,223,378
+termino de thread 6, rank 2, duration:  7751.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570185/SRR12570185.sra
+2022-11-22T16:24:47 vdb-validate.2.10.5 info: Database 'SRR12570218.sra' metadata: md5 ok
+2022-11-22T16:24:47 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T16:24:47 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T16:24:47 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570092/SRR12570092.sra' contains only unaligned reads
+2022-11-22T16:24:47 vdb-validate.2.10.5 info: Database 'SRR12570092.sra' is consistent
+2022-11-22T16:24:48 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T16:24:52 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T16:24:52 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T16:24:55 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T16:24:57 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T16:24:57 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570218/SRR12570218.sra' contains only unaligned reads
+2022-11-22T16:24:57 vdb-validate.2.10.5 info: Database 'SRR12570218.sra' is consistent
+2022-11-22T16:25:05 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T16:25:13 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T16:25:13 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570130/SRR12570130.sra' contains only unaligned reads
+2022-11-22T16:25:13 vdb-validate.2.10.5 info: Database 'SRR12570130.sra' is consistent
+termino de thread 6, rank 3, duration:  7792.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570105/SRR12570105.sra
+2022-11-22T16:25:27 vdb-validate.2.10.5 info: Database 'SRR12570228.sra' metadata: md5 ok
+2022-11-22T16:25:27 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T16:25:29 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T16:25:32 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T16:25:36 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T16:25:37 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T16:25:37 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570228/SRR12570228.sra' contains only unaligned reads
+2022-11-22T16:25:37 vdb-validate.2.10.5 info: Database 'SRR12570228.sra' is consistent
+spots read      : 12,867,108
+reads read      : 25,734,216
+reads written   : 25,734,216
+spots read      : 14,810,609
+reads read      : 29,621,218
+reads written   : 29,621,218
+spots read      : 13,656,371
+reads read      : 27,312,742
+reads written   : 27,312,742
+spots read      : 13,889,770
+reads read      : 27,779,540
+reads written   : 27,779,540
+spots read      : 13,747,475
+reads read      : 27,494,950
+reads written   : 27,494,950
+spots read      : 13,730,479
+reads read      : 27,460,958
+reads written   : 27,460,958
+termino de thread 5, rank 0, duration:  7961.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570182/SRR12570182.sra
+2022-11-22T16:28:17 vdb-validate.2.10.5 info: Database 'SRR12570232.sra' metadata: md5 ok
+2022-11-22T16:28:18 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T16:28:19 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T16:28:22 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T16:28:24 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T16:28:26 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T16:28:26 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570232/SRR12570232.sra' contains only unaligned reads
+2022-11-22T16:28:26 vdb-validate.2.10.5 info: Database 'SRR12570232.sra' is consistent
+termino de thread 5, rank 3, duration:  8001.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570188/SRR12570188.sra
+2022-11-22T16:28:57 vdb-validate.2.10.5 info: Database 'SRR12570128.sra' metadata: md5 ok
+2022-11-22T16:28:58 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T16:28:59 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T16:29:02 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T16:29:06 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T16:29:07 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T16:29:07 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570128/SRR12570128.sra' contains only unaligned reads
+2022-11-22T16:29:07 vdb-validate.2.10.5 info: Database 'SRR12570128.sra' is consistent
+termino de thread 4, rank 0, duration:  8035.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570212/SRR12570212.sra
+2022-11-22T16:29:30 vdb-validate.2.10.5 info: Database 'SRR12570122.sra' metadata: md5 ok
+2022-11-22T16:29:30 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T16:29:31 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T16:29:34 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T16:29:37 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T16:29:39 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T16:29:39 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570122/SRR12570122.sra' contains only unaligned reads
+2022-11-22T16:29:39 vdb-validate.2.10.5 info: Database 'SRR12570122.sra' is consistent
+spots read      : 12,962,923
+reads read      : 25,925,846
+reads written   : 25,925,846
+spots read      : 13,889,514
+reads read      : 27,779,028
+reads written   : 27,779,028
+termino de thread 5, rank 1, duration:  8120.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570114/SRR12570114.sra
+2022-11-22T16:30:56 vdb-validate.2.10.5 info: Database 'SRR12570132.sra' metadata: md5 ok
+2022-11-22T16:30:56 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T16:30:57 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+spots read      : 13,659,650
+reads read      : 27,319,300
+reads written   : 27,319,300
+2022-11-22T16:31:01 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T16:31:04 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T16:31:06 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T16:31:06 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570132/SRR12570132.sra' contains only unaligned reads
+2022-11-22T16:31:06 vdb-validate.2.10.5 info: Database 'SRR12570132.sra' is consistent
+termino de thread 4, rank 3, duration:  8197.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570178/SRR12570178.sra
+2022-11-22T16:32:13 vdb-validate.2.10.5 info: Database 'SRR12570107.sra' metadata: md5 ok
+2022-11-22T16:32:13 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T16:32:15 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T16:32:18 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T16:32:22 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T16:32:24 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T16:32:24 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570107/SRR12570107.sra' contains only unaligned reads
+2022-11-22T16:32:24 vdb-validate.2.10.5 info: Database 'SRR12570107.sra' is consistent
+spots read      : 14,083,633
+reads read      : 28,167,266
+reads written   : 28,167,266
+termino de thread 3, rank 0, duration:  8282.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570201/SRR12570201.sra
+2022-11-22T16:33:38 vdb-validate.2.10.5 info: Database 'SRR12570126.sra' metadata: md5 ok
+2022-11-22T16:33:38 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T16:33:38 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T16:33:42 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T16:33:45 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T16:33:46 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T16:33:46 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570126/SRR12570126.sra' contains only unaligned reads
+2022-11-22T16:33:46 vdb-validate.2.10.5 info: Database 'SRR12570126.sra' is consistent
+spots read      : 14,130,920
+reads read      : 28,261,840
+reads written   : 28,261,840
+termino de thread 3, rank 1, duration:  8361.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570173/SRR12570173.sra
+2022-11-22T16:34:56 vdb-validate.2.10.5 info: Database 'SRR12570220.sra' metadata: md5 ok
+2022-11-22T16:34:56 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+termino de thread 4, rank 1, duration:  8363.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570115/SRR12570115.sra
+2022-11-22T16:34:58 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T16:34:58 vdb-validate.2.10.5 info: Database 'SRR12570108.sra' metadata: md5 ok
+2022-11-22T16:34:58 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T16:35:00 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T16:35:02 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+spots read      : 13,659,519
+reads read      : 27,319,038
+reads written   : 27,319,038
+2022-11-22T16:35:04 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T16:35:05 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T16:35:07 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T16:35:07 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T16:35:07 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570220/SRR12570220.sra' contains only unaligned reads
+2022-11-22T16:35:07 vdb-validate.2.10.5 info: Database 'SRR12570220.sra' is consistent
+2022-11-22T16:35:10 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T16:35:10 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570108/SRR12570108.sra' contains only unaligned reads
+2022-11-22T16:35:10 vdb-validate.2.10.5 info: Database 'SRR12570108.sra' is consistent
+termino de thread 3, rank 3, duration:  8394.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570179/SRR12570179.sra
+2022-11-22T16:35:29 vdb-validate.2.10.5 info: Database 'SRR12570221.sra' metadata: md5 ok
+2022-11-22T16:35:29 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T16:35:31 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T16:35:35 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T16:35:38 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T16:35:40 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T16:35:40 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570221/SRR12570221.sra' contains only unaligned reads
+2022-11-22T16:35:40 vdb-validate.2.10.5 info: Database 'SRR12570221.sra' is consistent
+spots read      : 14,092,041
+reads read      : 28,184,082
+reads written   : 28,184,082
+spots read      : 14,126,062
+reads read      : 28,252,124
+reads written   : 28,252,124
+spots read      : 14,343,133
+reads read      : 28,686,266
+reads written   : 28,686,266
+termino de thread 2, rank 1, duration:  8552.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570125/SRR12570125.sra
+2022-11-22T16:38:07 vdb-validate.2.10.5 info: Database 'SRR12570109.sra' metadata: md5 ok
+2022-11-22T16:38:07 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T16:38:09 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T16:38:13 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T16:38:16 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T16:38:18 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T16:38:18 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570109/SRR12570109.sra' contains only unaligned reads
+2022-11-22T16:38:18 vdb-validate.2.10.5 info: Database 'SRR12570109.sra' is consistent
+termino de thread 2, rank 3, duration:  8568.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570116/SRR12570116.sra
+2022-11-22T16:38:24 vdb-validate.2.10.5 info: Database 'SRR12570210.sra' metadata: md5 ok
+2022-11-22T16:38:24 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T16:38:25 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T16:38:28 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T16:38:32 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T16:38:33 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T16:38:34 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570210/SRR12570210.sra' contains only unaligned reads
+2022-11-22T16:38:34 vdb-validate.2.10.5 info: Database 'SRR12570210.sra' is consistent
+spots read      : 14,484,018
+reads read      : 28,968,036
+reads written   : 28,968,036
+termino de thread 1, rank 3, duration:  8656.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570203/SRR12570203.sra
+2022-11-22T16:39:51 vdb-validate.2.10.5 info: Database 'SRR12570211.sra' metadata: md5 ok
+2022-11-22T16:39:52 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T16:39:52 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T16:39:57 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T16:40:00 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+spots read      : 14,078,319
+reads read      : 28,156,638
+reads written   : 28,156,638
+2022-11-22T16:40:02 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T16:40:02 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570211/SRR12570211.sra' contains only unaligned reads
+2022-11-22T16:40:02 vdb-validate.2.10.5 info: Database 'SRR12570211.sra' is consistent
+spots read      : 14,328,307
+reads read      : 28,656,614
+reads written   : 28,656,614
+termino de thread 1, rank 1, duration:  8860.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570134/SRR12570134.sra
+2022-11-22T16:43:16 vdb-validate.2.10.5 info: Database 'SRR12570184.sra' metadata: md5 ok
+2022-11-22T16:43:16 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T16:43:18 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T16:43:22 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T16:43:25 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T16:43:27 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T16:43:27 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570184/SRR12570184.sra' contains only unaligned reads
+2022-11-22T16:43:27 vdb-validate.2.10.5 info: Database 'SRR12570184.sra' is consistent
+spots read      : 14,689,154
+reads read      : 29,378,308
+reads written   : 29,378,308
+termino de thread 7, rank 0, duration:  10264.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570112/SRR12570112.sra
+2022-11-22T17:06:39 vdb-validate.2.10.5 info: Database 'SRR12570191.sra' metadata: md5 ok
+2022-11-22T17:06:39 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T17:06:40 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T17:06:42 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T17:06:44 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T17:06:45 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T17:06:45 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570191/SRR12570191.sra' contains only unaligned reads
+2022-11-22T17:06:45 vdb-validate.2.10.5 info: Database 'SRR12570191.sra' is consistent
+termino de thread 5, rank 2, duration:  10332.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570121/SRR12570121.sra
+spots read      : 10,845,965
+reads read      : 21,691,930
+reads written   : 21,691,930
+2022-11-22T17:07:48 vdb-validate.2.10.5 info: Database 'SRR12570215.sra' metadata: md5 ok
+2022-11-22T17:07:48 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T17:07:49 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T17:07:52 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T17:07:55 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T17:07:56 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T17:07:56 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570215/SRR12570215.sra' contains only unaligned reads
+2022-11-22T17:07:56 vdb-validate.2.10.5 info: Database 'SRR12570215.sra' is consistent
+termino de thread 6, rank 0, duration:  10369.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570196/SRR12570196.sra
+2022-11-22T17:08:24 vdb-validate.2.10.5 info: Database 'SRR12570192.sra' metadata: md5 ok
+2022-11-22T17:08:25 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T17:08:25 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T17:08:28 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T17:08:30 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T17:08:31 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T17:08:31 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570192/SRR12570192.sra' contains only unaligned reads
+2022-11-22T17:08:31 vdb-validate.2.10.5 info: Database 'SRR12570192.sra' is consistent
+spots read      : 11,434,403
+reads read      : 22,868,806
+reads written   : 22,868,806
+spots read      : 11,021,340
+reads read      : 22,042,680
+reads written   : 22,042,680
+termino de thread 4, rank 2, duration:  10472.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570219/SRR12570219.sra
+2022-11-22T17:10:07 vdb-validate.2.10.5 info: Database 'SRR12570112.sra' metadata: md5 ok
+2022-11-22T17:10:07 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T17:10:08 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T17:10:11 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T17:10:14 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T17:10:15 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T17:10:15 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570112/SRR12570112.sra' contains only unaligned reads
+2022-11-22T17:10:15 vdb-validate.2.10.5 info: Database 'SRR12570112.sra' is consistent
+termino de thread 5, rank 0, duration:  10533.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570232/SRR12570232.sra
+2022-11-22T17:11:09 vdb-validate.2.10.5 info: Database 'SRR12570094.sra' metadata: md5 ok
+2022-11-22T17:11:09 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T17:11:09 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T17:11:12 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T17:11:14 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T17:11:15 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T17:11:15 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570094/SRR12570094.sra' contains only unaligned reads
+2022-11-22T17:11:15 vdb-validate.2.10.5 info: Database 'SRR12570094.sra' is consistent
+spots read      : 12,295,341
+reads read      : 24,590,682
+reads written   : 24,590,682
+spots read      : 10,995,580
+reads read      : 21,991,160
+reads written   : 21,991,160
+termino de thread 3, rank 2, duration:  10649.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570233/SRR12570233.sra
+2022-11-22T17:13:05 vdb-validate.2.10.5 info: Database 'SRR12570196.sra' metadata: md5 ok
+2022-11-22T17:13:05 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T17:13:06 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T17:13:09 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T17:13:12 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T17:13:14 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T17:13:14 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570196/SRR12570196.sra' contains only unaligned reads
+2022-11-22T17:13:14 vdb-validate.2.10.5 info: Database 'SRR12570196.sra' is consistent
+spots read      : 12,867,108
+reads read      : 25,734,216
+reads written   : 25,734,216
+termino de thread 7, rank 2, duration:  10777.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570226/SRR12570226.sra
+2022-11-22T17:15:12 vdb-validate.2.10.5 info: Database 'SRR12570225.sra' metadata: md5 ok
+2022-11-22T17:15:12 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T17:15:14 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T17:15:17 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T17:15:20 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T17:15:21 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T17:15:21 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570225/SRR12570225.sra' contains only unaligned reads
+2022-11-22T17:15:21 vdb-validate.2.10.5 info: Database 'SRR12570225.sra' is consistent
+termino de thread 4, rank 0, duration:  10801.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570122/SRR12570122.sra
+2022-11-22T17:15:36 vdb-validate.2.10.5 info: Database 'SRR12570223.sra' metadata: md5 ok
+2022-11-22T17:15:36 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T17:15:37 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T17:15:40 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T17:15:42 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T17:15:43 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T17:15:43 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570223/SRR12570223.sra' contains only unaligned reads
+2022-11-22T17:15:43 vdb-validate.2.10.5 info: Database 'SRR12570223.sra' is consistent
+spots read      : 11,961,792
+reads read      : 23,923,584
+reads written   : 23,923,584
+spots read      : 11,835,834
+reads read      : 23,671,668
+reads written   : 23,671,668
+termino de thread 6, rank 2, duration:  10887.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570218/SRR12570218.sra
+2022-11-22T17:17:02 vdb-validate.2.10.5 info: Database 'SRR12570110.sra' metadata: md5 ok
+2022-11-22T17:17:02 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T17:17:03 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T17:17:06 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T17:17:09 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T17:17:11 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T17:17:11 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570110/SRR12570110.sra' contains only unaligned reads
+2022-11-22T17:17:11 vdb-validate.2.10.5 info: Database 'SRR12570110.sra' is consistent
+termino de thread 2, rank 2, duration:  10899.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570202/SRR12570202.sra
+2022-11-22T17:17:15 vdb-validate.2.10.5 info: Database 'SRR12570232.sra' metadata: md5 ok
+2022-11-22T17:17:15 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T17:17:21 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T17:17:35 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+termino de thread 7, rank 3, duration:  10921.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570101/SRR12570101.sra
+2022-11-22T17:17:37 vdb-validate.2.10.5 info: Database 'SRR12570222.sra' metadata: md5 ok
+2022-11-22T17:17:37 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T17:17:38 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T17:17:41 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+termino de thread 2, rank 0, duration:  10927.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570092/SRR12570092.sra
+2022-11-22T17:17:43 vdb-validate.2.10.5 info: Database 'SRR12570227.sra' metadata: md5 ok
+2022-11-22T17:17:43 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T17:17:44 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T17:17:45 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T17:17:45 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T17:17:45 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570222/SRR12570222.sra' contains only unaligned reads
+2022-11-22T17:17:45 vdb-validate.2.10.5 info: Database 'SRR12570222.sra' is consistent
+2022-11-22T17:17:48 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T17:17:49 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T17:17:51 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T17:17:52 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T17:17:52 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570227/SRR12570227.sra' contains only unaligned reads
+2022-11-22T17:17:52 vdb-validate.2.10.5 info: Database 'SRR12570227.sra' is consistent
+2022-11-22T17:17:55 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T17:17:56 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570232/SRR12570232.sra' contains only unaligned reads
+2022-11-22T17:17:56 vdb-validate.2.10.5 info: Database 'SRR12570232.sra' is consistent
+spots read      : 11,860,844
+reads read      : 23,721,688
+reads written   : 23,721,688
+spots read      : 12,116,282
+reads read      : 24,232,564
+reads written   : 24,232,564
+spots read      : 13,748,107
+reads read      : 27,496,214
+reads written   : 27,496,214
+spots read      : 12,962,923
+reads read      : 25,925,846
+reads written   : 25,925,846
+termino de thread 6, rank 3, duration:  11043.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570228/SRR12570228.sra
+2022-11-22T17:19:39 vdb-validate.2.10.5 info: Database 'SRR12570214.sra' metadata: md5 ok
+2022-11-22T17:19:39 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T17:19:40 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T17:19:43 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T17:19:46 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T17:19:47 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T17:19:47 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570214/SRR12570214.sra' contains only unaligned reads
+2022-11-22T17:19:47 vdb-validate.2.10.5 info: Database 'SRR12570214.sra' is consistent
+termino de thread 1, rank 2, duration:  11112.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570183/SRR12570183.sra
+2022-11-22T17:20:47 vdb-validate.2.10.5 info: Database 'SRR12570122.sra' metadata: md5 ok
+2022-11-22T17:20:47 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T17:20:48 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T17:20:51 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+termino de thread 7, rank 1, duration:  11118.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570130/SRR12570130.sra
+2022-11-22T17:20:53 vdb-validate.2.10.5 info: Database 'SRR12570198.sra' metadata: md5 ok
+2022-11-22T17:20:53 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T17:20:54 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+termino de thread 3, rank 0, duration:  11119.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570126/SRR12570126.sra
+2022-11-22T17:20:54 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T17:20:55 vdb-validate.2.10.5 info: Database 'SRR12570225.sra' metadata: md5 ok
+2022-11-22T17:20:55 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+spots read      : 11,148,797
+reads read      : 22,297,594
+reads written   : 22,297,594
+2022-11-22T17:20:56 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T17:20:56 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570122/SRR12570122.sra' contains only unaligned reads
+2022-11-22T17:20:56 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T17:20:56 vdb-validate.2.10.5 info: Database 'SRR12570122.sra' is consistent
+2022-11-22T17:20:57 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T17:20:59 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T17:21:00 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T17:21:01 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T17:21:01 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570198/SRR12570198.sra' contains only unaligned reads
+2022-11-22T17:21:01 vdb-validate.2.10.5 info: Database 'SRR12570198.sra' is consistent
+2022-11-22T17:21:01 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T17:21:02 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T17:21:02 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570225/SRR12570225.sra' contains only unaligned reads
+2022-11-22T17:21:02 vdb-validate.2.10.5 info: Database 'SRR12570225.sra' is consistent
+2022-11-22T17:21:04 fasterq-dump.2.10.5 err: fasterq-dump.c fastdump_csra() checking ouput-file '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570225/SRR12570225.sra.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)
+fasterq-dump (PID 72995) quit with error code 3
+error in, thread 3, rank 0 /scratch/app/sratoolkit/2.10.5/bin/fasterq-dump /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570225/SRR12570225.sra -m 256000MB -e 24 -3 -S --skip-technical -O /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570225  -t /tmp
+gzip: /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570225/SRR12570225.sra_1.fastq.gz already exists;	not overwritten
+error in, thread 3, rank 0 gzip /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570225/SRR12570225.sra_1.fastq
+spots read      : 12,171,287
+reads read      : 24,342,574
+reads written   : 24,342,574
+spots read      : 13,659,650
+reads read      : 27,319,300
+reads written   : 27,319,300
+termino de thread 6, rank 1, duration:  11211.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570131/SRR12570131.sra
+2022-11-22T17:22:27 vdb-validate.2.10.5 info: Database 'SRR12570199.sra' metadata: md5 ok
+2022-11-22T17:22:27 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T17:22:27 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T17:22:30 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T17:22:33 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T17:22:35 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T17:22:35 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570199/SRR12570199.sra' contains only unaligned reads
+2022-11-22T17:22:35 vdb-validate.2.10.5 info: Database 'SRR12570199.sra' is consistent
+spots read      : 12,337,266
+reads read      : 24,674,532
+reads written   : 24,674,532
+termino de thread 5, rank 3, duration:  11426.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570128/SRR12570128.sra
+2022-11-22T17:26:01 vdb-validate.2.10.5 info: Database 'SRR12570216.sra' metadata: md5 ok
+2022-11-22T17:26:01 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T17:26:01 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T17:26:04 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T17:26:07 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T17:26:08 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T17:26:08 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570216/SRR12570216.sra' contains only unaligned reads
+2022-11-22T17:26:08 vdb-validate.2.10.5 info: Database 'SRR12570216.sra' is consistent
+spots read      : 11,269,582
+reads read      : 22,539,164
+reads written   : 22,539,164
+termino de thread 5, rank 1, duration:  11559.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570132/SRR12570132.sra
+2022-11-22T17:28:14 vdb-validate.2.10.5 info: Database 'SRR12570117.sra' metadata: md5 ok
+2022-11-22T17:28:14 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T17:28:16 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T17:28:19 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T17:28:22 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T17:28:23 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T17:28:23 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570117/SRR12570117.sra' contains only unaligned reads
+2022-11-22T17:28:24 vdb-validate.2.10.5 info: Database 'SRR12570117.sra' is consistent
+gzip: /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570225/SRR12570225.sra_2.fastq.gz already exists;	not overwritten
+error in, thread 7, rank 2 gzip /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570225/SRR12570225.sra_2.fastq
+termino de thread 7, rank 2, duration:  11608.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570225/SRR12570225.sra
+2022-11-22T17:29:06 vdb-validate.2.10.5 info: Database 'SRR12570161.sra' metadata: md5 ok
+2022-11-22T17:29:06 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T17:29:06 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T17:29:07 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T17:29:24 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T17:29:25 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T17:29:25 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570161/SRR12570161.sra' contains only unaligned reads
+2022-11-22T17:29:25 vdb-validate.2.10.5 info: Database 'SRR12570161.sra' is consistent
+spots read      : 12,581,661
+reads read      : 25,163,322
+reads written   : 25,163,322
+spots read      : 2,240,378
+reads read      : 4,480,756
+reads written   : 4,480,756
+termino de thread 4, rank 3, duration:  11702.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570107/SRR12570107.sra
+2022-11-22T17:30:37 vdb-validate.2.10.5 info: Database 'SRR12570213.sra' metadata: md5 ok
+2022-11-22T17:30:37 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T17:30:38 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T17:30:41 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+termino de thread 3, rank 3, duration:  11707.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570221/SRR12570221.sra
+2022-11-22T17:30:43 vdb-validate.2.10.5 info: Database 'SRR12570113.sra' metadata: md5 ok
+2022-11-22T17:30:43 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T17:30:44 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T17:30:44 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T17:30:45 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T17:30:45 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570213/SRR12570213.sra' contains only unaligned reads
+2022-11-22T17:30:45 vdb-validate.2.10.5 info: Database 'SRR12570213.sra' is consistent
+2022-11-22T17:30:50 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T17:31:02 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T17:31:08 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T17:31:08 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570113/SRR12570113.sra' contains only unaligned reads
+2022-11-22T17:31:09 vdb-validate.2.10.5 info: Database 'SRR12570113.sra' is consistent
+termino de thread 3, rank 1, duration:  11744.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570220/SRR12570220.sra
+2022-11-22T17:31:20 vdb-validate.2.10.5 info: Database 'SRR12570195.sra' metadata: md5 ok
+2022-11-22T17:31:20 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T17:31:21 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T17:31:24 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T17:31:27 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T17:31:28 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T17:31:28 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570195/SRR12570195.sra' contains only unaligned reads
+2022-11-22T17:31:28 vdb-validate.2.10.5 info: Database 'SRR12570195.sra' is consistent
+spots read      : 11,504,820
+reads read      : 23,009,640
+reads written   : 23,009,640
+spots read      : 12,910,483
+reads read      : 25,820,966
+reads written   : 25,820,966
+spots read      : 12,383,970
+reads read      : 24,767,940
+reads written   : 24,767,940
+termino de thread 4, rank 1, duration:  11937.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570108/SRR12570108.sra
+2022-11-22T17:34:33 vdb-validate.2.10.5 info: Database 'SRR12570194.sra' metadata: md5 ok
+2022-11-22T17:34:33 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T17:34:34 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T17:34:37 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T17:34:40 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T17:34:41 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T17:34:41 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570194/SRR12570194.sra' contains only unaligned reads
+2022-11-22T17:34:41 vdb-validate.2.10.5 info: Database 'SRR12570194.sra' is consistent
+spots read      : 12,736,760
+reads read      : 25,473,520
+reads written   : 25,473,520
+termino de thread 2, rank 3, duration:  12071.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570210/SRR12570210.sra
+2022-11-22T17:36:48 vdb-validate.2.10.5 info: Database 'SRR12570230.sra' metadata: md5 ok
+2022-11-22T17:36:48 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T17:36:49 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T17:36:53 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T17:36:56 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T17:36:57 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T17:36:57 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570230/SRR12570230.sra' contains only unaligned reads
+2022-11-22T17:36:57 vdb-validate.2.10.5 info: Database 'SRR12570230.sra' is consistent
+termino de thread 2, rank 1, duration:  12118.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570109/SRR12570109.sra
+2022-11-22T17:37:34 vdb-validate.2.10.5 info: Database 'SRR12570231.sra' metadata: md5 ok
+2022-11-22T17:37:34 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T17:37:36 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T17:37:40 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T17:37:43 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T17:37:44 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T17:37:44 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570231/SRR12570231.sra' contains only unaligned reads
+2022-11-22T17:37:44 vdb-validate.2.10.5 info: Database 'SRR12570231.sra' is consistent
+termino de thread 7, rank 2, duration:  12132.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570161/SRR12570161.sra
+spots read      : 12,848,964
+reads read      : 25,697,928
+reads written   : 25,697,928
+termino de thread 1, rank 3, duration:  12179.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570211/SRR12570211.sra
+2022-11-22T17:38:34 vdb-validate.2.10.5 info: Database 'SRR12570229.sra' metadata: md5 ok
+2022-11-22T17:38:35 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T17:38:36 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T17:38:39 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T17:38:43 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T17:38:44 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T17:38:44 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570229/SRR12570229.sra' contains only unaligned reads
+2022-11-22T17:38:44 vdb-validate.2.10.5 info: Database 'SRR12570229.sra' is consistent
+spots read      : 12,981,285
+reads read      : 25,962,570
+reads written   : 25,962,570
+spots read      : 12,889,458
+reads read      : 25,778,916
+reads written   : 25,778,916
+termino de thread 1, rank 1, duration:  12396.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570184/SRR12570184.sra
+2022-11-22T17:42:11 vdb-validate.2.10.5 info: Database 'SRR12570102.sra' metadata: md5 ok
+2022-11-22T17:42:11 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T17:42:12 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T17:42:15 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T17:42:19 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T17:42:20 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T17:42:20 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570102/SRR12570102.sra' contains only unaligned reads
+2022-11-22T17:42:20 vdb-validate.2.10.5 info: Database 'SRR12570102.sra' is consistent
+spots read      : 13,186,645
+reads read      : 26,373,290
+reads written   : 26,373,290
+termino de thread 7, rank 0, duration:  12542.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570191/SRR12570191.sra
+termino de thread 6, rank 0, duration:  12625.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570192/SRR12570192.sra
+mv: cannot stat ‘/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570225/SRR12570225.sra_1.fastq.gz’: No such file or directory
+error in, thread 3, rank 0 mv /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570225/SRR12570225.sra_1.fastq.gz SRR12570225_S1_L001_R1_001.fastq.gz
+mv: cannot stat ‘/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570225/SRR12570225.sra_2.fastq.gz’: No such file or directory
+error in, thread 3, rank 0 mv /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570225/SRR12570225.sra_2.fastq.gz SRR12570225_S1_L001_R2_001.fastq.gz
+termino de thread 3, rank 0, duration:  12706.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570225/SRR12570225.sra
+2022-11-22T17:47:23 vdb-validate.2.10.5 info: Database 'SRR12570175.sra' metadata: md5 ok
+2022-11-22T17:47:23 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T17:47:23 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T17:47:24 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T17:47:26 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T17:47:26 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T17:47:26 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570175/SRR12570175.sra' contains only unaligned reads
+2022-11-22T17:47:26 vdb-validate.2.10.5 info: Database 'SRR12570175.sra' is consistent
+spots read      : 9,043,456
+reads read      : 18,086,912
+reads written   : 18,086,912
+termino de thread 5, rank 0, duration:  12764.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570094/SRR12570094.sra
+termino de thread 4, rank 0, duration:  12893.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570223/SRR12570223.sra
+2022-11-22T17:50:28 vdb-validate.2.10.5 info: Database 'SRR12570158.sra' metadata: md5 ok
+2022-11-22T17:50:29 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T17:50:29 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T17:50:29 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T17:50:51 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T17:50:51 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T17:50:51 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570158/SRR12570158.sra' contains only unaligned reads
+2022-11-22T17:50:51 vdb-validate.2.10.5 info: Database 'SRR12570158.sra' is consistent
+spots read      : 2,203,697
+reads read      : 4,407,394
+reads written   : 4,407,394
+termino de thread 2, rank 0, duration:  13101.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570227/SRR12570227.sra
+2022-11-22T17:53:56 vdb-validate.2.10.5 info: Database 'SRR12570110.sra' metadata: md5 ok
+2022-11-22T17:53:56 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T17:53:57 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T17:53:58 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T17:53:59 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T17:54:00 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T17:54:00 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570110/SRR12570110.sra' contains only unaligned reads
+2022-11-22T17:54:00 vdb-validate.2.10.5 info: Database 'SRR12570110.sra' is consistent
+2022-11-22T17:54:01 fasterq-dump.2.10.5 err: fasterq-dump.c fastdump_csra() checking ouput-file '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570110/SRR12570110.sra.fastq' -> RC(rcExe,rcFile,rcPacking,rcName,rcExists)
+fasterq-dump (PID 38736) quit with error code 3
+error in, thread 2, rank 0 /scratch/app/sratoolkit/2.10.5/bin/fasterq-dump /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570110/SRR12570110.sra -m 256000MB -e 24 -3 -S --skip-technical -O /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570110  -t /tmp
+gzip: /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570110/SRR12570110.sra_1.fastq: No such file or directory
+error in, thread 2, rank 0 gzip /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570110/SRR12570110.sra_1.fastq
+gzip: /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570110/SRR12570110.sra_2.fastq.gz already exists;	not overwritten
+error in, thread 2, rank 0 gzip /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570110/SRR12570110.sra_2.fastq
+termino de thread 2, rank 0, duration:  13106.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570110/SRR12570110.sra
+2022-11-22T17:54:02 vdb-validate.2.10.5 info: Database 'SRR12570146.sra' metadata: md5 ok
+2022-11-22T17:54:02 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T17:54:02 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T17:54:03 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T17:54:04 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T17:54:04 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T17:54:04 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570146/SRR12570146.sra' contains only unaligned reads
+2022-11-22T17:54:04 vdb-validate.2.10.5 info: Database 'SRR12570146.sra' is consistent
+spots read      : 9,304,932
+reads read      : 18,609,864
+reads written   : 18,609,864
+termino de thread 4, rank 0, duration:  13163.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570158/SRR12570158.sra
+termino de thread 5, rank 2, duration:  13229.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570215/SRR12570215.sra
+2022-11-22T17:56:05 vdb-validate.2.10.5 info: Database 'SRR12570148.sra' metadata: md5 ok
+2022-11-22T17:56:05 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T17:56:06 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T17:56:08 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T17:56:10 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T17:56:10 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T17:56:10 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570148/SRR12570148.sra' contains only unaligned reads
+2022-11-22T17:56:10 vdb-validate.2.10.5 info: Database 'SRR12570148.sra' is consistent
+spots read      : 9,436,106
+reads read      : 18,872,212
+reads written   : 18,872,212
+termino de thread 4, rank 2, duration:  13356.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570112/SRR12570112.sra
+2022-11-22T17:58:12 vdb-validate.2.10.5 info: Database 'SRR12570190.sra' metadata: md5 ok
+2022-11-22T17:58:12 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T17:58:13 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T17:58:15 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T17:58:17 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T17:58:18 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T17:58:18 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570190/SRR12570190.sra' contains only unaligned reads
+2022-11-22T17:58:18 vdb-validate.2.10.5 info: Database 'SRR12570190.sra' is consistent
+spots read      : 10,865,199
+reads read      : 21,730,398
+reads written   : 21,730,398
+termino de thread 3, rank 0, duration:  13478.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570175/SRR12570175.sra
+termino de thread 3, rank 2, duration:  13513.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570196/SRR12570196.sra
+2022-11-22T18:00:49 vdb-validate.2.10.5 info: Database 'SRR12570145.sra' metadata: md5 ok
+2022-11-22T18:00:50 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T18:00:51 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T18:00:53 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T18:00:55 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T18:00:56 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T18:00:56 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570145/SRR12570145.sra' contains only unaligned reads
+2022-11-22T18:00:56 vdb-validate.2.10.5 info: Database 'SRR12570145.sra' is consistent
+spots read      : 11,096,000
+reads read      : 22,192,000
+reads written   : 22,192,000
+termino de thread 2, rank 0, duration:  13600.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570146/SRR12570146.sra
+mv: cannot stat ‘/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570110/SRR12570110.sra_1.fastq.gz’: No such file or directory
+error in, thread 6, rank 2 mv /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570110/SRR12570110.sra_1.fastq.gz SRR12570110_S1_L001_R1_001.fastq.gz
+mv: cannot stat ‘/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570110/SRR12570110.sra_2.fastq.gz’: No such file or directory
+error in, thread 6, rank 2 mv /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570110/SRR12570110.sra_2.fastq.gz SRR12570110_S1_L001_R2_001.fastq.gz
+termino de thread 6, rank 2, duration:  13625.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570110/SRR12570110.sra
+2022-11-22T18:02:40 vdb-validate.2.10.5 info: Database 'SRR12570176.sra' metadata: md5 ok
+2022-11-22T18:02:40 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T18:02:41 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T18:02:43 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T18:02:45 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T18:02:45 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T18:02:45 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570176/SRR12570176.sra' contains only unaligned reads
+2022-11-22T18:02:45 vdb-validate.2.10.5 info: Database 'SRR12570176.sra' is consistent
+termino de thread 2, rank 2, duration:  13666.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570232/SRR12570232.sra
+2022-11-22T18:03:21 vdb-validate.2.10.5 info: Database 'SRR12570097.sra' metadata: md5 ok
+2022-11-22T18:03:21 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T18:03:23 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T18:03:26 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T18:03:29 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T18:03:30 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T18:03:30 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570097/SRR12570097.sra' contains only unaligned reads
+2022-11-22T18:03:30 vdb-validate.2.10.5 info: Database 'SRR12570097.sra' is consistent
+spots read      : 9,190,759
+reads read      : 18,381,518
+reads written   : 18,381,518
+spots read      : 10,966,744
+reads read      : 21,933,488
+reads written   : 21,933,488
+termino de thread 7, rank 3, duration:  13766.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570222/SRR12570222.sra
+2022-11-22T18:05:01 vdb-validate.2.10.5 info: Database 'SRR12570160.sra' metadata: md5 ok
+2022-11-22T18:05:01 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T18:05:01 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T18:05:02 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T18:05:02 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T18:05:03 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T18:05:03 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570160/SRR12570160.sra' contains only unaligned reads
+2022-11-22T18:05:03 vdb-validate.2.10.5 info: Database 'SRR12570160.sra' is consistent
+spots read      : 2,232,582
+reads read      : 4,465,164
+reads written   : 4,465,164
+termino de thread 1, rank 2, duration:  14022.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570122/SRR12570122.sra
+2022-11-22T18:09:18 vdb-validate.2.10.5 info: Database 'SRR12570237.sra' metadata: md5 ok
+2022-11-22T18:09:18 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T18:09:19 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T18:09:21 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T18:09:24 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T18:09:25 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T18:09:25 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570237/SRR12570237.sra' contains only unaligned reads
+2022-11-22T18:09:25 vdb-validate.2.10.5 info: Database 'SRR12570237.sra' is consistent
+termino de thread 6, rank 3, duration:  14039.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570214/SRR12570214.sra
+2022-11-22T18:09:35 vdb-validate.2.10.5 info: Database 'SRR12570138.sra' metadata: md5 ok
+2022-11-22T18:09:35 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T18:09:36 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T18:09:38 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T18:09:40 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T18:09:41 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T18:09:41 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570138/SRR12570138.sra' contains only unaligned reads
+2022-11-22T18:09:41 vdb-validate.2.10.5 info: Database 'SRR12570138.sra' is consistent
+termino de thread 7, rank 1, duration:  14086.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570198/SRR12570198.sra
+2022-11-22T18:10:22 vdb-validate.2.10.5 info: Database 'SRR12570174.sra' metadata: md5 ok
+2022-11-22T18:10:22 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T18:10:23 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T18:10:25 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T18:10:27 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T18:10:28 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T18:10:28 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570174/SRR12570174.sra' contains only unaligned reads
+2022-11-22T18:10:28 vdb-validate.2.10.5 info: Database 'SRR12570174.sra' is consistent
+spots read      : 11,865,344
+reads read      : 23,730,688
+reads written   : 23,730,688
+spots read      : 9,261,795
+reads read      : 18,523,590
+reads written   : 18,523,590
+spots read      : 9,066,043
+reads read      : 18,132,086
+reads written   : 18,132,086
+termino de thread 6, rank 1, duration:  14199.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570199/SRR12570199.sra
+2022-11-22T18:12:15 vdb-validate.2.10.5 info: Database 'SRR12570177.sra' metadata: md5 ok
+2022-11-22T18:12:15 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T18:12:15 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T18:12:17 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T18:12:20 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T18:12:20 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T18:12:20 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570177/SRR12570177.sra' contains only unaligned reads
+2022-11-22T18:12:20 vdb-validate.2.10.5 info: Database 'SRR12570177.sra' is consistent
+spots read      : 9,196,754
+reads read      : 18,393,508
+reads written   : 18,393,508
+termino de thread 7, rank 3, duration:  14302.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570160/SRR12570160.sra
+termino de thread 5, rank 3, duration:  14421.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570216/SRR12570216.sra
+2022-11-22T18:15:56 vdb-validate.2.10.5 info: Database 'SRR12570147.sra' metadata: md5 ok
+2022-11-22T18:15:56 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T18:15:57 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T18:15:59 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T18:16:01 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T18:16:02 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T18:16:02 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570147/SRR12570147.sra' contains only unaligned reads
+2022-11-22T18:16:02 vdb-validate.2.10.5 info: Database 'SRR12570147.sra' is consistent
+spots read      : 9,428,675
+reads read      : 18,857,350
+reads written   : 18,857,350
+termino de thread 5, rank 1, duration:  14652.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570117/SRR12570117.sra
+2022-11-22T18:19:48 vdb-validate.2.10.5 info: Database 'SRR12570239.sra' metadata: md5 ok
+2022-11-22T18:19:48 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T18:19:49 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T18:19:51 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T18:19:54 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T18:19:55 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T18:19:55 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570239/SRR12570239.sra' contains only unaligned reads
+2022-11-22T18:19:55 vdb-validate.2.10.5 info: Database 'SRR12570239.sra' is consistent
+termino de thread 4, rank 3, duration:  14682.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570213/SRR12570213.sra
+2022-11-22T18:20:17 vdb-validate.2.10.5 info: Database 'SRR12570142.sra' metadata: md5 ok
+2022-11-22T18:20:18 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T18:20:19 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T18:20:21 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T18:20:23 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T18:20:24 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T18:20:24 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570142/SRR12570142.sra' contains only unaligned reads
+2022-11-22T18:20:24 vdb-validate.2.10.5 info: Database 'SRR12570142.sra' is consistent
+spots read      : 10,391,103
+reads read      : 20,782,206
+reads written   : 20,782,206
+spots read      : 10,852,214
+reads read      : 21,704,428
+reads written   : 21,704,428
+termino de thread 3, rank 3, duration:  14773.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570113/SRR12570113.sra
+2022-11-22T18:21:49 vdb-validate.2.10.5 info: Database 'SRR12570144.sra' metadata: md5 ok
+2022-11-22T18:21:49 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T18:21:50 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T18:21:52 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T18:21:56 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T18:21:57 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T18:21:57 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570144/SRR12570144.sra' contains only unaligned reads
+2022-11-22T18:21:57 vdb-validate.2.10.5 info: Database 'SRR12570144.sra' is consistent
+termino de thread 3, rank 1, duration:  14829.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570195/SRR12570195.sra
+2022-11-22T18:22:45 vdb-validate.2.10.5 info: Database 'SRR12570193.sra' metadata: md5 ok
+2022-11-22T18:22:45 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T18:22:46 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T18:22:48 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T18:22:51 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T18:22:52 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T18:22:52 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570193/SRR12570193.sra' contains only unaligned reads
+2022-11-22T18:22:52 vdb-validate.2.10.5 info: Database 'SRR12570193.sra' is consistent
+spots read      : 11,050,840
+reads read      : 22,101,680
+reads written   : 22,101,680
+spots read      : 10,986,074
+reads read      : 21,972,148
+reads written   : 21,972,148
+termino de thread 2, rank 3, duration:  14954.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570230/SRR12570230.sra
+2022-11-22T18:24:50 vdb-validate.2.10.5 info: Database 'SRR12570095.sra' metadata: md5 ok
+2022-11-22T18:24:50 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T18:24:50 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T18:24:53 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T18:24:55 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T18:24:56 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T18:24:56 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570095/SRR12570095.sra' contains only unaligned reads
+2022-11-22T18:24:56 vdb-validate.2.10.5 info: Database 'SRR12570095.sra' is consistent
+termino de thread 4, rank 1, duration:  14996.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570194/SRR12570194.sra
+2022-11-22T18:25:31 vdb-validate.2.10.5 info: Database 'SRR12570143.sra' metadata: md5 ok
+2022-11-22T18:25:32 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T18:25:33 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T18:25:35 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T18:25:38 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T18:25:39 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T18:25:39 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570143/SRR12570143.sra' contains only unaligned reads
+2022-11-22T18:25:39 vdb-validate.2.10.5 info: Database 'SRR12570143.sra' is consistent
+spots read      : 10,923,144
+reads read      : 21,846,288
+reads written   : 21,846,288
+termino de thread 1, rank 3, duration:  15058.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570229/SRR12570229.sra
+2022-11-22T18:26:34 vdb-validate.2.10.5 info: Database 'SRR12570235.sra' metadata: md5 ok
+2022-11-22T18:26:34 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T18:26:36 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T18:26:38 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T18:26:40 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T18:26:41 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T18:26:41 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570235/SRR12570235.sra' contains only unaligned reads
+2022-11-22T18:26:41 vdb-validate.2.10.5 info: Database 'SRR12570235.sra' is consistent
+spots read      : 10,933,046
+reads read      : 21,866,092
+reads written   : 21,866,092
+termino de thread 2, rank 1, duration:  15128.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570231/SRR12570231.sra
+2022-11-22T18:27:43 vdb-validate.2.10.5 info: Database 'SRR12570096.sra' metadata: md5 ok
+2022-11-22T18:27:43 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T18:27:44 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T18:27:46 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+spots read      : 11,727,886
+reads read      : 23,455,772
+reads written   : 23,455,772
+2022-11-22T18:27:49 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T18:27:50 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T18:27:50 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570096/SRR12570096.sra' contains only unaligned reads
+2022-11-22T18:27:50 vdb-validate.2.10.5 info: Database 'SRR12570096.sra' is consistent
+termino de thread 5, rank 2, duration:  15188.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570148/SRR12570148.sra
+spots read      : 11,048,127
+reads read      : 22,096,254
+reads written   : 22,096,254
+termino de thread 6, rank 2, duration:  15426.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570176/SRR12570176.sra
+termino de thread 4, rank 2, duration:  15503.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570190/SRR12570190.sra
+termino de thread 3, rank 2, duration:  15559.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570145/SRR12570145.sra
+termino de thread 1, rank 1, duration:  15585.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570102/SRR12570102.sra
+2022-11-22T18:35:21 vdb-validate.2.10.5 info: Database 'SRR12570236.sra' metadata: md5 ok
+2022-11-22T18:35:21 vdb-validate.2.10.5 info: Table 'SEQUENCE' metadata: md5 ok
+2022-11-22T18:35:22 vdb-validate.2.10.5 info: Column 'ALTREAD': checksums ok
+2022-11-22T18:35:25 vdb-validate.2.10.5 info: Column 'QUALITY': checksums ok
+2022-11-22T18:35:28 vdb-validate.2.10.5 info: Column 'READ': checksums ok
+2022-11-22T18:35:29 vdb-validate.2.10.5 info: Column 'SPOT_GROUP': checksums ok
+2022-11-22T18:35:29 vdb-validate.2.10.5 info: Database '/scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570236/SRR12570236.sra' contains only unaligned reads
+2022-11-22T18:35:29 vdb-validate.2.10.5 info: Database 'SRR12570236.sra' is consistent
+termino de thread 2, rank 2, duration:  15615.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570097/SRR12570097.sra
+spots read      : 11,906,241
+reads read      : 23,812,482
+reads written   : 23,812,482
+termino de thread 1, rank 2, duration:  15693.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570237/SRR12570237.sra
+termino de thread 6, rank 3, duration:  15982.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570138/SRR12570138.sra
+termino de thread 5, rank 3, duration:  16281.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570147/SRR12570147.sra
+termino de thread 7, rank 1, duration:  16325.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570174/SRR12570174.sra
+termino de thread 6, rank 1, duration:  16442.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570177/SRR12570177.sra
+termino de thread 4, rank 3, duration:  16599.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570142/SRR12570142.sra
+termino de thread 3, rank 3, duration:  16650.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570144/SRR12570144.sra
+termino de thread 2, rank 3, duration:  16725.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570095/SRR12570095.sra
+termino de thread 1, rank 3, duration:  16757.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570235/SRR12570235.sra
+termino de thread 5, rank 1, duration:  16946.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570239/SRR12570239.sra
+termino de thread 3, rank 1, duration:  17088.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570193/SRR12570193.sra
+termino de thread 4, rank 1, duration:  17112.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570143/SRR12570143.sra
+termino de thread 2, rank 1, duration:  17173.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570096/SRR12570096.sra
+termino de thread 1, rank 1, duration:  17255.000000, /scratch/app/sratoolkit/2.10.5/bin/vdb-validate /scratch/inova-covd19/helena.silva/MeusTestes/experimento01/SRR12570236/SRR12570236.sra
+status do Recv Master local 0 = 0
+status do Recv Master local 0 = 0
+status do Recv Master local 0 = 0
+status do Recv Master local 1 = 0
+
+real	287m35.884s
+user	0m0.052s
+sys	0m0.112s

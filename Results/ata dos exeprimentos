@@ -73,6 +73,14 @@ user    0m0.054s
 sys     0m0.093s
 
 
+d) 40 threads, ordem desc, job 10704604
+real    80m5.270s
+user    0m0.059s
+sys     0m0.109s
+
+d) 48 threads, ordem desc, job 10704657
+
+
 e)BASELINE - sequencial, 150 SRRs
 sbatch comandosSequenciais.srm 
 Submitted batch job 10699389
@@ -109,3 +117,10 @@ srun: error: sdumont6083: task 2: Terminated
 a.1)Repetir experimento com 4 nós
 
 b.1) 8 threads por nó, 4 nós, job 10702306, output output4nodes10702306.out
+Resultado: não obteve sucesso
+Houve erro nos fasterq-dump (PID 72995) quit with error code 3, completanto
+
+-> tentativa de fazer com apenas 2 nós novamente, mas com essa nova biblioteca MPI:
+sbatch experimento01c.srm teste_mpi_omp 
+Submitted batch job 10703221
+output: output2nodes10703221.out

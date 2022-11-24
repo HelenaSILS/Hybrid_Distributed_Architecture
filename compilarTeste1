@@ -1,0 +1,10 @@
+#!/bin/bash
+
+   module load sequana/current
+   #source /scratch/app/modulos/intel-psxe-2017.1.043.sh
+   #module load openmpi/icc/4.0.3.3_sequana
+   #module load openmpi/gnu/4.1.4
+   #module load openmpi/gnu/2.0.4.2
+   module load openmpi/gnu/ilp64/4.0.3.3
+
+   mpicc mainSrlz.c file_manager.c -o teste_mpi_omp -fopenmp 
